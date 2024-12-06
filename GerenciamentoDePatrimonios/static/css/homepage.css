@@ -121,7 +121,7 @@
 }
 
 /* Estilos adicionais para telas ainda menores */
-@media (max-width: 480px) {
+@media (max-width: 650px) {
     .titleHomepage {
         font-size: 2.5rem; /* Reduz ainda mais o tamanho do título */
     }
@@ -137,6 +137,7 @@
 
     .itensHomepage {
         padding: 0 10px; /* Adiciona padding lateral em telas pequenas */
+        margin-top: 40%;
     }
 
     .iconHomepage {

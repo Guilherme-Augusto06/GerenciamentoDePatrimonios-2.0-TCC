@@ -20,18 +20,3 @@
     }
 }
 
-@media (max-width: 768px) {
-    .vetorFormas-Component {
-        bottom: 0;
-        width: 100%; /* Mantém a largura completa */
-        height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .vetorFormas-Component {
-        bottom: 0;
-        width: 100%; /* Mantém a largura completa */
-        height: auto;
-    }
-}

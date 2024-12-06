@@ -401,12 +401,39 @@
 }
 
 /* Ajustar largura da imagem no header em telas menores */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .conteudo-cabecalho {
         max-width: 100%; /* Ajuste para telas menores */
         text-align: center;
         flex-direction: column; /* Flex para empilhar verticalmente */
         
+    }
+    .box img{
+        display: none;
+    }
+    .botao-cadastro {
+        padding: 8px 20px;
+        background-color: #B01818;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 20px;
+        transition: background-color 0.3s ease;
+        width: 180px;
+        height: 50px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+    }
+    .conteudo-cabecalho h1{
+        font-size: 30px;
+    }
+    .conteudo-cabecalho span{
+        font-size: 30px;
+    }
+
+    .conteudo-cabecalho p{
+        font-size: 20px;
     }
     
     .cabecalho-welcome {

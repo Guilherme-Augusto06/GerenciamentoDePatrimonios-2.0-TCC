@@ -266,6 +266,7 @@
     .add-text.none{
         display: none;
     }
+
 }
 
 
@@ -329,8 +330,8 @@
         margin-bottom: 40px;
     }
 
-    .inf h3 {
-        font-size: 1.2rem;
+    .inf h3{
+        font-size: 16px;
     }
 
     
