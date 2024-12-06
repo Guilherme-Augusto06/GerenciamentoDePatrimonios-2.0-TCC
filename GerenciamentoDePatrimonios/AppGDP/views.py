@@ -22,6 +22,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.decorators import api_view
 from django.db import IntegrityError
 from django.views.decorators.http import require_http_methods
+from django.contrib.auth.decorators import user_passes_test
 
 
 
@@ -106,7 +107,13 @@ def filtrar_salas(user, is_coordenador, is_professor):
         return Sala.objects.filter(responsavel=user.username)  # Professor vê salas específicas
     return []  # Usuário sem grupo relevante não vê nada
 
-
+def grupo_coordenador_required(view_func):
+    decorator = user_passes_test(
+        lambda user: user.groups.filter(name='Coordenador').exists(),
+        login_url='/welcomeHomepage',  # Redireciona se o usuário não for do grupo Coordenador
+        redirect_field_name=None  # Remove o parâmetro ?next= no redirecionamento
+    )
+    return decorator(view_func)
 
 @login_required
 def welcomeHomepage(request):
@@ -282,8 +289,11 @@ def salas(request):
 
 
 #---------------------------- LOGIN E CADASTRO DE USUÁRIO ----------------------------
+@grupo_coordenador_required
 @login_required
 def cadastroUsuario(request):
+    if not request.user.groups.filter(name='Coordenador').exists():
+        return redirect('/login')  # Redireciona para a página de login ou qualquer outra página
     
     context = {}
     is_coordenador, is_professor = verificar_grupo_usuario(request.user)
@@ -321,6 +331,7 @@ def cadastroUsuario(request):
         print('Cadastro falhou')
     
     return render(request, 'cadastroUsuario.html', context)
+
 
 def login(request):
     context = {}
@@ -485,6 +496,7 @@ def profile(request):
 
 
 #---------------------------- Usuários ----------------------------#
+@grupo_coordenador_required
 @login_required
 def gerenciar_usuarios(request):
     context = {}
@@ -492,7 +504,6 @@ def gerenciar_usuarios(request):
     is_coordenador, is_professor = verificar_grupo_usuario(request.user)
     usuarios = User.objects.all().select_related()
     usuarios_info = []
-    
 
     for user in usuarios:
         # Obtenha o grupo do usuário
