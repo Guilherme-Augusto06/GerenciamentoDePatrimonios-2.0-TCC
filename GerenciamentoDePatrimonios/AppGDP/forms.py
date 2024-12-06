@@ -36,5 +36,5 @@ class InventarioForm(forms.ModelForm):
 class SalaForm(forms.ModelForm):
     class Meta:
         model = Sala
-        fields = ['sala', 'descricao', 'localizacao', 'link_imagem', 'responsavel', 'quantidade_itens']
+        fields = ['sala', 'descricao', 'localizacao', 'link_imagem', 'responsavel']
 

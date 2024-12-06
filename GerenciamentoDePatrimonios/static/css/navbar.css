@@ -121,7 +121,7 @@
   .mobile-menu {
     display: none;
     cursor: pointer;
-    z-index: 100000;
+    z-index: 1000;
   }
   
   .mobile-menu div {

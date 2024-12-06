@@ -49,31 +49,11 @@
                     <label for="sala">Sala</label>
                     <div class="input-container">
                         <input type="text" id="sala" value="{{ sala }}" disabled>
-                        <span class="material-icons edit-icon" onclick="openModal('salaModal')">edit</span>
                     </div>
                 </div>
                 
                 <!-- Modal - Escolher Sala -->
-                <div id="salaModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-modal" onclick="closeModal('salaModal')">&times;</span>
-                        <h2>Escolher Sala</h2>
-                        <form method="POST" action="{% url 'profile' %}">
-                            {% csrf_token %}
-                            <label for="selectSala">Selecione uma sala:</label>
-                            <select id="selectSala" name="sala" required>
-                                <option value="Sala C13" {% if sala == "Sala C13" %}selected{% endif %}>Sala C13</option>
-                                <option value="Sala C19" {% if sala == "Sala C19" %}selected{% endif %}>Sala C19</option>
-                                <option value="Sala C17" {% if sala == "Sala C17" %}selected{% endif %}>Sala C17</option>
-                                <option value="Eletroeletrônica 1" {% if sala == "Eletroeletrônica 1" %}selected{% endif %}>Eletroeletrônica 1</option>
-                                <option value="Eletroeletrônica 2" {% if sala == "Eletroeletrônica 2" %}selected{% endif %}>Eletroeletrônica 2</option>
-                            </select>
-                            <button type="button" onclick="saveSala()">Salvar</button>
-                            
-                        </form>
-                        
-                    </div>
-                </div>
+
 
             </div>
         </div>

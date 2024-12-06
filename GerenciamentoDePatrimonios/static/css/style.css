@@ -14,6 +14,7 @@
 @import url(itens.css);
 @import url(modal.css);
 @import url(modalConfirmation.css);
+@import url(footer.css);
 
 /* Estilo inicial dos itens */
 .fade-in-item {

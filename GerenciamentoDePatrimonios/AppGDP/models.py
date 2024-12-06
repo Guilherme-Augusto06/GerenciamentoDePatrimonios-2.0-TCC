@@ -41,7 +41,6 @@ class Sala(models.Model):
     localizacao = models.CharField(max_length=10)
     link_imagem = models.URLField(max_length=500, blank=True, null=True)
     responsavel = models.CharField(max_length=50, unique=True)
-    quantidade_itens = models.IntegerField(default=0)
     email_responsavel = models.EmailField(max_length=100, blank=True, null=True)
     
 
