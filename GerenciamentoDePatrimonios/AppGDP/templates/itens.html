@@ -18,7 +18,7 @@
                 </div>
             </form>
 
-            <button onclick="openModal('modalFiltro')">
+            <button onclick="openModal('modalFiltro')" class="filterButton">
                 <span class="material-symbols-outlined" id="iconItens">filter_list</span>
             </button>
 
@@ -107,11 +107,13 @@
             </form>
 
             <!-- Filtro por Sala -->
+            {% if is_coordenador %}
             <form id="filtroSalaForm" method="GET" action="{% url 'buscar_itens' %}">
                 <label for="sala">Filtrar por Sala:</label>
                 <input type="text" name="sala" id="sala" placeholder="Digite o nome da sala">
                 <button type="submit">Aplicar</button>
             </form>
+            {% endif %}
         </div>
     </div>
 

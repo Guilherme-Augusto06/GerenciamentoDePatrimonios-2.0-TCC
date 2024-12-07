@@ -131,13 +131,12 @@
     }
 
     .TransparentBlackButton-component {
-        padding: 8px 5%; /* Ajusta o padding do botão */
-        font-size: 1rem; /* Ajusta o tamanho do texto do botão */
+        font-size: 1.2rem; /* Ajusta o tamanho do texto do botão */
+        margin-left: 50px;
     }
 
     .itensHomepage {
-        padding: 0 10px; /* Adiciona padding lateral em telas pequenas */
-        margin-top: 40%;
+        margin-top: 60%;
     }
 
     .iconHomepage {

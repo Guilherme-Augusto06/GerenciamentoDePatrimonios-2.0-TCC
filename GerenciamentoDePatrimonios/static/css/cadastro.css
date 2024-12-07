@@ -88,6 +88,7 @@ main {
 .btn-login:hover {
     transform: scale(1.1); /* Aumenta o botão em 10% */
 }
+
 .titleLogin{
     font-size: 64px;
     font-weight: bold;
@@ -102,35 +103,4 @@ main {
 
 /* Media Queries para responsividade */
 
-@media (max-width: 676px) {
-    .login-form {
-        padding: 5px;
-        max-width: 100%; /* Certifica-se de que o formulário ocupe toda a largura disponível */
-    }
 
-    .titleLogin {
-        font-size: 14px; /* Diminui o título para caber na tela */
-    }
-
-    .input-login {
-        height: 20px; /* Reduz a altura dos inputs */
-        font-size: 10px; /* Ajusta o tamanho da fonte nos campos de entrada */
-    }
-
-    .btn-login {
-        height: 30px; /* Reduz a altura do botão */
-        font-size: 10px; /* Diminui o texto do botão */
-    }
-
-    .input-group {
-        margin-bottom: 10px; /* Reduz o espaçamento entre os grupos de inputs */
-    }
-
-    .input-group label {
-        font-size: 8px; /* Diminui o tamanho da label */
-    }
-
-    .input-container {
-        margin-top: 2px; /* Ajusta o espaçamento entre a label e o input */
-    }
-}

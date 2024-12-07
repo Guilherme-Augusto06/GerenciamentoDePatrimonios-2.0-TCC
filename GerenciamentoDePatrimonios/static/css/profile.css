@@ -1,5 +1,6 @@
 
 .profile-body {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,18 +130,17 @@ select:focus {
     border-color: #007bff;
 }
 
-@media (max-width: 800px) {
+
+
+@media (max-width: 900px) {
     .container-profile {
-        background-color: #ffffff;
+        background-color: #ffffff0c;
         border-radius: 15px;
         padding: 30px;
         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
         width: 90%;
     }
-    
 }
-
-
 
 
 

@@ -358,6 +358,9 @@
 }
 /* Ajustar número de colunas em telas menores */
 @media (max-width: 1024px) {
+    .navbarAllItens{
+        margin-bottom: 100px;
+      }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -381,6 +384,9 @@
 
 
 @media (max-width: 768px) {
+    .navbarAllItens{
+        margin-bottom: 100px;
+      }
     .grid-container {
         grid-template-columns: 1fr;
     }
@@ -399,15 +405,14 @@
         padding: 10px 20px; /* Ajustar padding */
     }
 
-    .box {
-        width: 100%; /* Ajustar largura da box */
-        height: auto; /* Ajustar altura da box */
 
-    }
 }
 
 
 @media (max-width: 600px) {
+    .navbarAllItens{
+        margin-bottom: 100px;
+      }
     .box img{
         width: 100%; /* Ajustar largura da box */
         height: auto; /* Ajustar altura da box */
@@ -467,6 +472,9 @@
     }
 }
 @media (max-width: 375px) {
+    .navbarAllItens{
+        margin-bottom: 100px;
+      }
     .cartao-servico {
         width: 100%;
         margin: 10px 0;
