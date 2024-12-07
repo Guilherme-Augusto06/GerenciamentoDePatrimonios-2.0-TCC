@@ -65,6 +65,39 @@
 
     
 }
+/* Contêiner para alinhar os botões horizontalmente */
+.status-buttons-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+/* Estilo base para todos os botões */
+.status-button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+/* Botão para o total (cinza) */
+.total-button {
+    background-color: #6c757d; /* Cinza */
+}
+
+/* Botão para localizados (verde) */
+.located-button {
+    background-color: #28a745; /* Verde */
+}
+
+/* Botão para não localizados (vermelho) */
+.not-located-button {
+    background-color: #dc3545; /* Vermelho */
+}
+
 
 .search-container input.input-itens {
     padding: 10px;
@@ -209,6 +242,7 @@
 
 .inf h3{
     font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 
 .inf p{
@@ -277,6 +311,13 @@
         font-family: poppins;
         font-size: 12px;
     }
+    .status-button {
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 10px;
+
+    }
 
 
 }
@@ -343,7 +384,7 @@
         font-size: 0.9rem;
     }
     .inf p{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     .inf h3{
