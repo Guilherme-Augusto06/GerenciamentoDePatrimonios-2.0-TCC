@@ -56,6 +56,14 @@ main {
     margin-top: 5px;
     position: relative;
 }
+.input-container input{
+    color: var(--text-color);
+    background-color: transparent;
+}
+.input-container select{
+    color: var(--text-color);
+    background-color: var(--card-color-bg);
+}
 
 .input-login {
 

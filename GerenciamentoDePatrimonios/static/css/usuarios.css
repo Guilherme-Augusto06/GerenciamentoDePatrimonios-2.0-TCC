@@ -56,7 +56,7 @@
 .edit-btn-users,
 .delete-btn-users {
     padding: 8px 12px;
-    color: #fff;
+    color: white;
     background-color: #b01818;
     border: none;
     border-radius: 4px;
@@ -86,13 +86,26 @@
 }
 
 .modal-content-users {
-    background-color: #fff;
+    background-color: var(--modal-color);
     padding: 20px;
     border-radius: 8px;
     width: 80%;
     max-width: 600px;
     position: relative;
     box-sizing: border-box;
+}
+.modal-content-users h2{
+    color: var(--text-color);
+}
+.modal-content-users p{
+    color: var(--text-color);
+}
+.modal-content-users label{
+    color: var(--text-color);
+}
+.modal-content-users input{
+    color: var(--text-color);
+    background-color: transparent;
 }
 
 .close-users {

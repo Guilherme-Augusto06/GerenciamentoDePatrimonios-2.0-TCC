@@ -7,6 +7,7 @@
     --card-color-bg: rgba(0, 0, 0, 0.100);
     --modal-color: #ffffff;
     --input-color: #ffffff;
+    --input-color2: #000000;
 }   
 
 [data-theme="dark"] {
@@ -18,6 +19,7 @@
     --card-color-bg: #313131;
     --modal-color: #313131;
     --input-color: #000000;
+    --input-color2: #ffffff;
 }
 
 .main {

@@ -54,7 +54,7 @@ input {
 
 input:disabled {
     border-color: #0000001c;
-    background-color: #ffffffad;
+    background-color: var(--card-color-bg);
     cursor: not-allowed;
 }
 
