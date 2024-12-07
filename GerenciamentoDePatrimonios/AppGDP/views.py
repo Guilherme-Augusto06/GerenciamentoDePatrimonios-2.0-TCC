@@ -52,6 +52,34 @@ def logout(request):
     auth_logout(request)
     return redirect('login')
 
+def filtrar_por_status(inventario, status):
+    """
+    Aplica o filtro ao inventário com base no status fornecido.
+    """
+    if status:
+        inventario = inventario.filter(status_localizacao=status)
+        print(f"Filtro aplicado: {status}")  # Para depuração
+    else:
+        print("Nenhum filtro aplicado.")
+    return inventario
+
+
+def contar_total_itens(inventario):
+    """
+    Retorna a contagem total de itens no inventário.
+    """
+    return inventario.count()
+
+
+def contar_status(inventario):
+    """
+    Retorna a contagem de itens localizados e não localizados.
+    """
+    total_localizados = inventario.filter(status_localizacao='localizado').count()
+    total_nao_localizados = inventario.filter(status_localizacao='nao_localizado').count()
+    return total_localizados, total_nao_localizados
+
+
 def filtrar_inventario_por_grupo(user, is_coordenador, is_professor):
     """
     Filtra o inventário com base no grupo do usuário.
@@ -202,12 +230,25 @@ def buscar_itens_sala(request):
 
     # Aplica filtros adicionais
     inventario = aplicar_filtros_inventario(inventario, query, ordem, sala)
+    
+    # Recupera o status da querystring
+    status = request.GET.get('status')
+
+    # Filtra o inventário pelo status
+    inventario = filtrar_por_status(inventario, status)
+
+    # Calcula os totais
+    total_itens = contar_total_itens(inventario)
+    total_localizados, total_nao_localizados = contar_status(inventario)
+
 
     # Adiciona informações ao contexto
     context['inventario'] = inventario
     context['form'] = InventarioForm()
     context['is_coordenador'] = is_coordenador
     context['is_professor'] = is_professor
+    context['total_itens'] = total_itens  # Adiciona a quantidade de itens ao contexto
+    context['total_localizados'] = total_localizados
 
     # Renderiza a página
     return render(request, 'itens.html', context)
@@ -367,6 +408,16 @@ def itens(request):
     # Filtra o inventário com base no grupo do usuário
     inventario = filtrar_inventario_por_grupo(request.user, is_coordenador, is_professor)
 
+    # Recupera o status da querystring
+    status = request.GET.get('status')
+
+    # Filtra o inventário pelo status
+    inventario = filtrar_por_status(inventario, status)
+
+    # Calcula os totais
+    total_itens = contar_total_itens(inventario)
+    total_localizados, total_nao_localizados = contar_status(inventario)
+
     # Gerenciamento de formulário (caso aplicável)
     if request.method == 'POST':
         form = InventarioForm(request.POST)
@@ -374,15 +425,21 @@ def itens(request):
             form.save()
             return redirect('itens')  # Redireciona para a página de itens
     else:
-        form = InventarioForm() 
+        form = InventarioForm()
 
+    # Adiciona informações ao contexto
     context['form'] = form
     context['inventario'] = inventario
     context['is_coordenador'] = is_coordenador
     context['is_professor'] = is_professor
-    form = InventarioForm()
+    context['total_itens'] = total_itens
+    context['total_localizados'] = total_localizados
+    context['total_nao_localizados'] = total_nao_localizados
+    context['status'] = status
 
     return render(request, 'itens.html', context)
+
+
     
     
 
@@ -414,12 +471,14 @@ def buscar_itens(request):
 
     # Aplica filtros de pesquisa e ordenação
     inventario = aplicar_filtros_inventario(inventario, query, ordem, sala)
+    total_itens = inventario.count()  # Caso seja um queryset, .count() funciona be
 
     context['inventario'] = inventario
     form = InventarioForm()
     context['form'] = form
     context['is_coordenador'] = is_coordenador
     context['is_professor'] = is_professor
+    context['total_itens'] = total_itens  # Adiciona a quantidade de itens ao contexto
 
     return render(request, 'itens.html', context)
 

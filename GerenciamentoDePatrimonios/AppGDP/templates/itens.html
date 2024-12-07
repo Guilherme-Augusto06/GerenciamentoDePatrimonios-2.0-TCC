@@ -6,6 +6,7 @@
 
 <main class="bg-body-i-w">
     <h1>Itens</h1>  
+    <h3>Total: {{ total_itens }} - Localizados: {{ total_localizados }} - Não localizados: {{ total_nao_localizados }}</h3>
     <div class="allItensContainerSearch">
         <div class="search-container">
             <form id="searchForm" method="GET" action="{% url 'buscar_itens' %}">
@@ -29,6 +30,7 @@
             </button>
             {% endif %}
         </div>
+
     </div>
 
     <div class="items-container">
@@ -105,6 +107,19 @@
                 </select>
                 <button type="submit">Aplicar</button>
             </form>
+            <form id="filtroStatusForm" method="GET" action="{% url 'itens' %}">
+                <label for="status">Filtrar por Status:</label>
+                <select name="status" id="status">
+                    <option value="" {% if not status %}selected{% endif %}>Todos</option>
+                    <option value="localizado" {% if status == "localizado" %}selected{% endif %}>Localizados</option>
+                    <option value="nao_localizado" {% if status == "nao_localizado" %}selected{% endif %}>Não Localizados</option>
+                </select>
+                <button type="submit">Aplicar</button>
+            </form>
+            
+            
+
+            
 
             <!-- Filtro por Sala -->
             {% if is_coordenador %}
