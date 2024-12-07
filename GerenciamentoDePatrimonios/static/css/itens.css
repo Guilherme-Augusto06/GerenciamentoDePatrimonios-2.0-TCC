@@ -38,6 +38,11 @@
 .bg-body-i-w h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.bg-body-i-w h3 {
+    font-family: poppins;
+    margin-bottom: 20px;
+}
+
 
 .logo img {
     height: 40px;
@@ -265,6 +270,10 @@
     
     .add-text.none{
         display: none;
+    }
+    .bg-body-i-w h3 {
+        font-family: poppins;
+        font-size: 12px;
     }
 
 
