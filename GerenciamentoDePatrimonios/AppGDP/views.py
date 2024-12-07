@@ -1063,3 +1063,31 @@ def get_user_room(request):
             return JsonResponse({'error': 'Invalid JSON format.'}, status=400)
     else:
         return JsonResponse({'error': 'Invalid request method.'}, status=405)
+    
+@csrf_exempt
+def atualizar_status_localizacao(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            num_inventario = data.get('num_inventario')
+
+            # Verifica se o número de inventário foi enviado
+            if not num_inventario:
+                return JsonResponse({'error': 'Número de inventário não informado'}, status=400)
+
+            # Busca o inventário no banco de dados
+            inventario = Inventario.objects.filter(num_inventario=num_inventario).first()
+
+            if not inventario:
+                return JsonResponse({'error': 'Inventário não encontrado'}, status=404)
+
+            # Atualiza o status para "localizado"
+            inventario.status_localizacao = 'localizado'
+            inventario.save()
+
+            return JsonResponse({'message': 'Status atualizado com sucesso'}, status=200)
+
+        except Exception as e:
+            return JsonResponse({'error': f'Ocorreu um erro: {str(e)}'}, status=500)
+
+    return JsonResponse({'error': 'Método não permitido'}, status=405)

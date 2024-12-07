@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 from .views import buscar_itens
+from .views import atualizar_status_localizacao
 
 urlpatterns = [
         path('', views.homepage, name="homepage"),         # Inclui as urls do app blog
@@ -41,4 +42,5 @@ urlpatterns = [
         path('api/user_dados', views.user_data, name='api_user_dados'),
         path('api/update_user_data', views.update_user_data, name='update_user_data'),
         path('api/get_user_room/', views.get_user_room, name='api_get_user_room'),
+        path('atualizar-status/', atualizar_status_localizacao, name='atualizar_status_localizacao'),
 ]
