@@ -2,7 +2,7 @@
 
 <!-- Navbar -->
 <header>
-    <nav>
+    <nav class="navbarAllItens">
         <div class="logo-component">
             <a href="/">
                 <!--Link da imagem-->
@@ -64,10 +64,12 @@ class MobileNavbar {
   }
 
   handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
+  this.navList.classList.toggle(this.activeClass);
+  this.mobileMenu.classList.toggle(this.activeClass);
+  document.body.classList.toggle("nav-open"); // Impede scroll ao abrir menu
+  this.animateLinks();
+}
+
 
   addClickEvent() {
     this.mobileMenu.addEventListener("click", this.handleClick);

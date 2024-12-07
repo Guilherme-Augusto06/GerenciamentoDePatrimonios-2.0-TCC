@@ -46,10 +46,12 @@ class MobileNavbar {
   }
 
   handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
+  this.navList.classList.toggle(this.activeClass);
+  this.mobileMenu.classList.toggle(this.activeClass);
+  document.body.classList.toggle("nav-open"); // Bloqueia o scroll
+  this.animateLinks();
+}
+
 
   addClickEvent() {
     this.mobileMenu.addEventListener("click", this.handleClick);

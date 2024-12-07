@@ -14,7 +14,6 @@
     align-items: center;
     padding: 60px 60px;
     color: var(--text-color);   
-    flex-wrap: wrap; /* Responsivo */
     max-width: 1250px; /* Defina uma largura máxima */
     margin: 0 auto; /* Centraliza a div horizontalmente */
     position: relative; /* Para garantir que ela fique no fluxo do documento */
@@ -80,9 +79,12 @@
 
 @media (max-width: 1024px) {
     .cabecalho-welcome {
-        flex-direction: column; /* Empilha as divs verticalmente */
-        align-items: center;
-        padding: 30px 20px;
+        position: relative; /* Fixa o cabeçalho no topo */
+        top: 0; /* Define que o cabeçalho ficará no topo */
+        left: 0; /* Alinha à esquerda */
+        width: 100%; /* Faz o cabeçalho ocupar a largura total */
+        background-color: var(--bg-color); /* Define o fundo do cabeçalho */
+        padding: 20px 60px; /* Ajusta o espaçamento interno */
     }
 
     .conteudo-cabecalho {
@@ -363,6 +365,9 @@
     .cabecalho h1 {
         font-size: 36px; /* Diminuir o tamanho do título */
     }
+    .conteudo-cabecalho h1{
+        margin-top: 40px;
+    }
 
     .cabecalho p {
         font-size: 14px; /* Diminuir o tamanho do texto */
@@ -380,8 +385,9 @@
         grid-template-columns: 1fr;
     }
 
-    .cabecalho h1 {
-        font-size: 28px; /* Diminuir ainda mais o título */
+    .conteudo-cabecalho h1{
+        font-size: 30px;
+        margin-top: 40px;
     }
 
     .cabecalho p {
@@ -400,16 +406,14 @@
     }
 }
 
-/* Ajustar largura da imagem no header em telas menores */
+
 @media (max-width: 600px) {
-    .conteudo-cabecalho {
-        max-width: 100%; /* Ajuste para telas menores */
-        text-align: center;
-        flex-direction: column; /* Flex para empilhar verticalmente */
-        
-    }
     .box img{
-        display: none;
+        width: 100%; /* Ajustar largura da box */
+        height: auto; /* Ajustar altura da box */
+        margin-left: 40px;
+        
+
     }
     .botao-cadastro {
         padding: 8px 20px;
@@ -427,6 +431,7 @@
     }
     .conteudo-cabecalho h1{
         font-size: 30px;
+        margin-top: 40px;
     }
     .conteudo-cabecalho span{
         font-size: 30px;
@@ -443,45 +448,12 @@
         display: flex;
 
     }
-
-    .image-container img {
-        max-width: 100%; /* Ajustar a imagem para ocupar 100% da largura disponível */
-        height: auto; /* Manter a proporção da imagem */
-    }
-
-    .item-card {
-        max-width: 100%; 
+    .conteudo-cabecalho {
+        max-width: 100%; /* Ajuste para telas menores */
         text-align: center;
+        flex-direction: column; /* Flex para empilhar verticalmente */
+        
     }
-
-    .grid-container {
-        align-items: center; /* Centralizar itens */
-        justify-content: center; /* Centralizar itens */
-    }
-
-    .servicos {
-        flex-direction: column; /* Empilhar serviços verticalmente */
-        text-align: center; /* Centralizar texto dos serviços */
-    }
-
-    .cartao-servico {
-        width: 100%; /* Ajustar o cartão de serviço para 100% */
-        margin: 10px 0; /* Espaçamento entre os cartões */
-    }
-
-    .botoes-salas {
-        flex-direction: column; /* Empilhar botões verticalmente */
-        gap: 10px; /* Ajustar espaço entre bmt otões */
-        text-align: center;
-    }
-
-    .botao-sala {
-        width: 50px; /* Ajustar largura do botão */
-        height: 50px; /* Ajustar altura do botão */
-    }
-
-}
-@media (max-width: 480px) {
     .titleHomepage {
         text-align: center;
         flex-wrap: wrap;

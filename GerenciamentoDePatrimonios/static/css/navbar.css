@@ -17,7 +17,12 @@
   a:hover {
     opacity: 0.7;
   }
+  body {
+    overflow-x: hidden!important; /* Sempre evita rolagem lateral */
+  }
   
+
+
   .logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -78,16 +83,17 @@
     background-color: #000000;
 }
 
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-color: #b01818;
-    height: 8vh;
-    border-radius: 0 0 20px 20px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background-color: #b01818;
+  height: 8vh;
+  border-radius: 0 0 20px 20px;
 
-  }
+}
+
   
   main {
     background: url("bg.jpg") no-repeat center center;
@@ -137,20 +143,35 @@
       overflow-x: hidden;
     }
     nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+      background-color: #b01818;
+      height: 8vh;
+      border-radius: 0 0 20px 20px;
+      position: fixed; /* Fixar no topo */
+      top: 0; /* Definir no topo */
+      width: 100%; /* Preencher a largura da tela */
+      z-index: 1000; /* Garantir que a navbar esteja acima de outros elementos */
       border-radius: 0 0 0 0;
     }
+
     .nav-list {
-      position: absolute;
+      position: fixed;
       top: 8vh;
-      right: 0;
+      right: -100%; /* Esconde fora da viewport */
       width: 50vw;
       height: 92vh;
-      background-color: #b01818;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
+      background-color: #a00; /* Exemplo de cor */
+      transition: right 0.3s ease-in-out;
+      z-index: 100; /* Certifique-se de que está acima de outros elementos */
+    }
+    .nav-list.active {
+      right: 0; /* Move para dentro da viewport */
     }
     .nav-list li {
       margin-left: 0;
