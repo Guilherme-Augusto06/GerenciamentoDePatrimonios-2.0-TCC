@@ -605,8 +605,9 @@ def get_salas(request):
     """
     View para retornar todas as salas em formato JSON.
     """
-    salas = Sala.objects.all().values('id', 'sala', 'descricao', 'localizacao', 'link_imagem', 'responsavel', 'quantidade_itens')
+    salas = Sala.objects.all().values('id', 'sala', 'descricao', 'localizacao', 'link_imagem', 'responsavel')
     return Response(list(salas), status=200)
+
 
 @api_view(['GET'])
 def get_inventarios(request):
@@ -807,19 +808,22 @@ def editar_sala(request):
         try:
             data = json.loads(request.body)
 
+            # Identificação da sala pelo nome
             sala_nome = data.get('sala')
             if not sala_nome:
                 return JsonResponse({'error': 'O campo sala é necessário para identificar o registro.'}, status=400)
 
+            # Buscar a sala no banco de dados
             sala = get_object_or_404(Sala, sala=sala_nome)
 
+            # Atualizar os campos permitidos
             sala.descricao = data.get('descricao', sala.descricao)
             sala.localizacao = data.get('localizacao', sala.localizacao)
             sala.link_imagem = data.get('link_imagem', sala.link_imagem)
             sala.responsavel = data.get('responsavel', sala.responsavel)
-            sala.quantidade_itens = data.get('quantidade_itens', sala.quantidade_itens)
             sala.email_responsavel = data.get('email_responsavel', sala.email_responsavel)
 
+            # Salvar as mudanças
             sala.save()
 
             return JsonResponse({'message': 'Sala editada com sucesso!'}, status=200)
@@ -830,6 +834,7 @@ def editar_sala(request):
             return JsonResponse({'error': f'Ocorreu um erro: {str(e)}'}, status=500)
 
     return JsonResponse({'error': 'Método não permitido.'}, status=405)
+
 
 @csrf_exempt
 def register_user(request):
