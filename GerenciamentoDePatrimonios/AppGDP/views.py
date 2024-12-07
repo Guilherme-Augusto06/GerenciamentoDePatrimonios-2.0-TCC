@@ -70,6 +70,32 @@ def contar_total_itens(inventario):
     """
     return inventario.count()
 
+def aplicar_filtros_inventario(inventario, params):
+    """
+    Aplica filtros ao inventário com base nos parâmetros fornecidos.
+    """
+    query = params.get('q')  
+    ordem = params.get('ordem')  
+    sala = params.get('sala')  
+    status = params.get('status')  
+
+    if query:
+        inventario = inventario.filter(num_inventario__icontains=query)
+        
+    if sala:
+        inventario = inventario.filter(sala__icontains=sala)
+        
+    if status:
+        inventario = inventario.filter(status_localizacao=status)
+        
+    if ordem == "A-Z":
+        inventario = inventario.order_by('denominacao')
+    elif ordem == "Z-A":
+        inventario = inventario.order_by('-denominacao')
+    
+    return inventario
+
+
 
 def contar_status(inventario):
     """
@@ -409,10 +435,24 @@ def itens(request):
     inventario = filtrar_inventario_por_grupo(request.user, is_coordenador, is_professor)
 
     # Recupera o status da querystring
-    status = request.GET.get('status')
 
-    # Filtra o inventário pelo status
-    inventario = filtrar_por_status(inventario, status)
+    query = request.GET.get('q')  
+    ordem = request.GET.get('ordem')  
+    sala = request.GET.get('sala')  
+    status = request.GET.get('status')  
+    if query:
+        inventario = inventario.filter(num_inventario__icontains=query)
+        
+    if sala:
+        inventario = inventario.filter(sala__icontains=sala)
+        
+    if status:
+        inventario = inventario.filter(status_localizacao=status)
+        
+    if ordem == "A-Z":
+        inventario = inventario.order_by('denominacao')
+    elif ordem == "Z-A":
+        inventario = inventario.order_by('-denominacao')
 
     # Calcula os totais
     total_itens = contar_total_itens(inventario)

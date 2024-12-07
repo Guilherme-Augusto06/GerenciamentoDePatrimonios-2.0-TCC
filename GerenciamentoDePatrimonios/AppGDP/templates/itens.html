@@ -15,7 +15,7 @@
                         <span class="material-symbols-outlined searchIcon" id="iconItens">search</span>
                     </button>
                     <input class="input-itens" type="text" name="q" id="searchInput"
-                        placeholder="Buscar por número de inventário...">
+                           placeholder="Buscar por número de inventário..." value="{{ request.GET.q }}">
                 </div>
             </form>
 
@@ -90,47 +90,43 @@
         </div>
     </div>
 
-    <!-- Modal de Filtros -->
-    <div id="modalFiltro" class="modal">
-        <div class="modal-content">
-            <button type="button" class="btn-close" onclick="closeModal('modalFiltro')"><span class="material-symbols-outlined">
-                close
-                </span></button>
-            <h2>Filtrar Itens</h2>
+   <!-- Modal de Filtros -->
+<div id="modalFiltro" class="modal">
+    <div class="modal-content">
+        <button type="button" class="btn-close" onclick="closeModal('modalFiltro')">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <h2>Filtrar Itens</h2>
 
+        <form method="GET" action="{% url 'itens' %}">
             <!-- Filtro por Ordem Alfabética -->
-            <form id="filtroAlfabeticoForm" method="GET" action="{% url 'buscar_itens' %}">
-                <label for="ordem">Ordenar por:</label>
-                <select name="ordem" id="ordem">
-                    <option value="A-Z">A-Z</option>
-                    <option value="Z-A">Z-A</option>
-                </select>
-                <button type="submit">Aplicar</button>
-            </form>
-            <form id="filtroStatusForm" method="GET" action="{% url 'itens' %}">
-                <label for="status">Filtrar por Status:</label>
-                <select name="status" id="status">
-                    <option value="" {% if not status %}selected{% endif %}>Todos</option>
-                    <option value="localizado" {% if status == "localizado" %}selected{% endif %}>Localizados</option>
-                    <option value="nao_localizado" {% if status == "nao_localizado" %}selected{% endif %}>Não Localizados</option>
-                </select>
-                <button type="submit">Aplicar</button>
-            </form>
-            
-            
+            <label for="ordem">Ordenar por:</label>
+            <select name="ordem" id="ordem">
+                <option value="" {% if not request.GET.ordem %}selected{% endif %}>Sem Ordem</option>
+                <option value="A-Z" {% if request.GET.ordem == "A-Z" %}selected{% endif %}>A-Z</option>
+                <option value="Z-A" {% if request.GET.ordem == "Z-A" %}selected{% endif %}>Z-A</option>
+            </select>
 
-            
+            <!-- Filtro por Status -->
+            <label for="status">Filtrar por Status:</label>
+            <select name="status" id="status">
+                <option value="" {% if not request.GET.status %}selected{% endif %}>Todos</option>
+                <option value="localizado" {% if request.GET.status == "localizado" %}selected{% endif %}>Localizados</option>
+                <option value="nao_localizado" {% if request.GET.status == "nao_localizado" %}selected{% endif %}>Não Localizados</option>
+            </select>
 
-            <!-- Filtro por Sala -->
+            <!-- Filtro por Sala (Somente para Coordenadores) -->
             {% if is_coordenador %}
-            <form id="filtroSalaForm" method="GET" action="{% url 'buscar_itens' %}">
-                <label for="sala">Filtrar por Sala:</label>
-                <input type="text" name="sala" id="sala" placeholder="Digite o nome da sala">
-                <button type="submit">Aplicar</button>
-            </form>
+            <label for="sala">Filtrar por Sala:</label>
+            <input type="text" name="sala" id="sala" 
+                   placeholder="Digite o nome da sala" value="{{ request.GET.sala }}">
             {% endif %}
-        </div>
+
+            <button type="submit">Aplicar</button>
+        </form>
     </div>
+</div>
+
 
 
 
