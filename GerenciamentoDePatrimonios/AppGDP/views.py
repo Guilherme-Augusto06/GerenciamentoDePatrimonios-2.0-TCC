@@ -293,7 +293,7 @@ def adicionar_salas(request):
 
     sala = Sala.objects.all()
     
-    return render(request, 'welcomeHomepage.html', {'form': form, 'sala': sala})
+    return render(request, 'welcomeHomepage.html', {'form': form, 'sala': sala, 'errors': form.errors})
 @login_required
 def update_sala(request):
     if request.method == 'POST':

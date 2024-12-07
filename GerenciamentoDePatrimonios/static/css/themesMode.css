@@ -5,6 +5,8 @@
     --color-logo-gradA: black;
     --color-logo-gradB: #b01717;
     --card-color-bg: rgba(0, 0, 0, 0.100);
+    --modal-color: #ffffff;
+    --input-color: #ffffff;
 }   
 
 [data-theme="dark"] {
@@ -14,6 +16,8 @@
     --color-logo-gradA: white;
     --color-logo-gradB: #b01717;
     --card-color-bg: #313131;
+    --modal-color: #313131;
+    --input-color: #000000;
 }
 
 .main {

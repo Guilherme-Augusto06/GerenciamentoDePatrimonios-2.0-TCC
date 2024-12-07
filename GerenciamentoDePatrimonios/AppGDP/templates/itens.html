@@ -287,7 +287,7 @@
                         closeModal('modalAddItem');
                         openConfirmation();
                     } else {
-                        alert("Erro ao adicionar o item.");
+                        console.error("Erro ao adicionar item.");
                     }
                 })
                 .catch(error => {

@@ -12,7 +12,7 @@
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: var(--modal-color);
     margin: 5% auto; 
     padding: 40px;
     border: none;
@@ -46,7 +46,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    color: #000;
+    color: var(--text-color);
     margin-bottom: 20px;
     word-wrap: break-word; /* Quebra palavras longas no título */
 }
@@ -55,18 +55,34 @@
     display: block;
     margin-top: 20px;
     font-size: 14px;
-    color: #333;
+    color: var(--text-color);
     font-weight: 500;
     word-wrap: break-word; /* Quebra palavras longas em labels */
+}
+
+.modal-content h2{
+    color: var(--text-color);
 }
 
 .modal-content input {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--input-color);
     border-radius: 8px;
     font-size: 16px;
+    color: var(--text-color);
+    background-color: transparent;
+}
+.modal-content select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--card-color-bg);
 }
 
 .modal-actions {

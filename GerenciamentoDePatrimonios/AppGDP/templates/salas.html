@@ -39,6 +39,16 @@
         </div>
         {% endfor %}
     </div>
+    {% if errors %}
+    <ul class="error-list">
+        {% for field, error_list in errors.items %}
+            {% for error in error_list %}
+                <li>{{ field }}: {{ error }}</li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+{% endif %}
+
     <!-- Modal de excluir -->
      
 
@@ -98,7 +108,7 @@
             <button type="button" class="btn-close" onclick="closeModal('modalAddItem')"><span class="material-symbols-outlined">
                 close
                 </span></button>
-            <h2 class="adicionarH2Itens">Adicionar Item</h2>
+            <h2 class="adicionarH2Itens">Adicionar Sala</h2>
             <form id="addItemForm" method="POST" action="{% url 'adicionar_inventario' %}">
                 {% csrf_token %}
                 {{ form.as_p }}

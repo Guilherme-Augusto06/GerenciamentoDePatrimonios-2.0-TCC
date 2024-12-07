@@ -37,7 +37,7 @@ class Inventario(models.Model):
 
 class Sala(models.Model):
     sala = models.CharField(max_length=30, unique=True)
-    descricao = models.TextField(max_length=1500)
+    descricao = models.CharField(max_length=255) 
     localizacao = models.CharField(max_length=10)
     link_imagem = models.URLField(max_length=500, blank=True, null=True)
     responsavel = models.CharField(max_length=50, unique=True)
