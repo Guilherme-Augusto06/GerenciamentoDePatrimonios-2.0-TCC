@@ -1,10 +1,10 @@
 .accordion {
     display: flex;
     flex-direction: column;
-    max-width: 750px;
-    min-width: 901px;
+    width: 50%;
     margin: 50px auto;
     padding: 0 50px;
+    padding: 0 20px; /* Reduz o padding em telas menores */
 }
 
 .accordion h1 {
@@ -57,11 +57,48 @@
     transition: transform 0.3s ease; /* Animação para a seta */
 }
 
-@media screen and (max-width: 767px) {
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
     .accordion {
-        padding: 0 16px;
+        width: 90%; /* Para telas menores, ocupa 90% da largura */
+        max-width: 100%; /* Ocupa toda a largura */
+        padding: 0 15px; /* Reduz o padding */
     }
+
+    .accordion-item .accordion-item-title {
+        font-size: 20px; /* Reduz o tamanho do título */
+        padding: 12px 15px; /* Reduz o espaçamento */
+    }
+
+    .accordion-item .accordion-item-desc {
+        font-size: 18px; /* Reduz o tamanho do texto */
+        padding: 8px 15px 15px; /* Ajusta o espaçamento */
+    }
+
+    .accordion-item .icon {
+        font-size: 18px; /* Reduz o tamanho do ícone */
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 480px) {
+    .accordion {
+        width: 90%; /* Para telas menores, ocupa 90% da largura */
+    }
+    
     .accordion h1 {
-        font-size: 22px;
+        font-size: 24px; /* Reduz o tamanho do título principal */
+    }
+
+    .accordion-item .accordion-item-title {
+        font-size: 18px; /* Ajusta o tamanho do título */
+    }
+
+    .accordion-item .accordion-item-desc {
+        font-size: 16px; /* Ajusta o tamanho do texto */
+    }
+
+    .accordion-item .icon {
+        font-size: 16px; /* Ajusta o tamanho do ícone */
     }
 }
