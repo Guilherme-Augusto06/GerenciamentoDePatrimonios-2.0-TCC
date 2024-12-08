@@ -319,14 +319,14 @@ Before presenting the results, it is important to explain the concept of asset m
 
   <h5>Database</h5>
 
-  <h6>Tables</h6>
+  <h4>Tables</h4>
   <ul>
     <li>Assets</li>
     <li>Users (Coordinators and Teachers)</li>
     <li>Rooms</li>
     <li>Assets Under Maintenance</li>
   </ul>
-  <h6>Project process diagram:</h6>
+  <h4>Project process diagram:</h4>
   
 ![Análise de sitemap (2)](https://github.com/user-attachments/assets/e5df10ce-2563-4724-a6f0-2444dcc87cc1)
 
