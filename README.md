@@ -141,8 +141,11 @@ Before presenting the results, it is important to explain the concept of asset m
 
 
 
+
 <div id="methodology">
   <h2>Methodology</h2>
+	
+![Banner para Linkedin Tecnologia em Preto (3)](https://github.com/user-attachments/assets/ea15e3e7-d2d9-40ac-b33e-d2266132db8d)
 
   <div id="scrum">
     <h3>Scrum</h3>
@@ -172,5 +175,78 @@ Before presenting the results, it is important to explain the concept of asset m
 <p>We use **Notion** to **organize information**, **manage tasks**, and **collaborate efficiently** as a team. We create **custom pages** to store notes, documents, and important data, along with **task lists**, **Kanban boards**, and **calendars** to track project progress. Notion also allows us to create **structured databases**, making information organization visual and accessible. With its flexibility and collaborative features, Notion has become our central tool for managing both day-to-day tasks and more complex projects.</p>
   </div>
 </div>
+
+<div id="requirements">
+  <h4>Requirements Gathering</h4>
+	
+![Banner para Linkedin Tecnologia em Preto (4)](https://github.com/user-attachments/assets/6ff7167f-0642-480f-8480-84c9cd5dc927)
+  <ol>
+    <li>
+      <strong>RF01 - Asset Registration</strong>
+      <p>The system must allow administrators to register assets in the system, entering information such as name and ID.</p>
+    </li>
+    <li>
+      <strong>RF02 - Asset Editing</strong>
+      <p>The system must allow editing of the data for already registered assets. Only users (administrators) should have permission to make these changes.</p>
+    </li>
+    <li>
+      <strong>RF03 - Asset Deletion</strong>
+      <p>The system must allow assets to be deleted. Only administrators can delete assets; teachers will only be able to add assets.</p>
+    </li>
+    <li>
+      <strong>RF04 - Asset Listing</strong>
+      <p>The system must display a list of all registered assets, allowing users such as administrators to check the status of each asset.</p>
+    </li>
+    <li>
+      <strong>RF05 - Asset Search</strong>
+      <p>The system must allow searching for assets through filters such as name, location, and ID.</p>
+    </li>
+    <li>
+      <strong>RF06 - Availability Control</strong>
+      <p>The system must display the availability of each asset to facilitate management by other departments or employees.</p>
+    </li>
+    <li>
+      <strong>RF10 - Maintenance Management</strong>
+      <p>The system must allow the administrator to register the need for maintenance if an item requires it.</p>
+    </li>
+    <li>
+      <strong>RF11 - Access Control</strong>
+      <p>The system must allow different access levels, such as administrators (who have full control over asset registration and scheduling, and can delete, edit, and redirect to maintenance) and other users, who will have permissions to view and schedule.</p>
+    </li>
+  </ol>
+  
+  <h5>Non-functional Requirements:</h5>
+  <ul>
+    <li>
+      <strong>RNF01 - Responsive Interface</strong>
+      <p>The system must be accessible on both desktop and mobile devices (smartphones and tablets), automatically adjusting to different screen sizes without losing functionality.</p>
+    </li>
+    <li>
+      <strong>RNF02 - Performance</strong>
+      <p>The software must be fast in listing, searching, and filtering inventory items, as well as visualizing specific items, such as in the inventory and item-specific screens.</p>
+    </li>
+    <li>
+      <strong>RNF03 - Security</strong>
+      <p>The system must implement all authentication and authorization mechanisms, ensuring that only authorized users can perform actions such as registering, editing, and deleting assets.</p>
+    </li>
+    <li>
+      <strong>RNF04 - Data Integrity</strong>
+      <p>The system must ensure the integrity of stored data and prevent data loss during operations such as asset registration and updates.</p>
+    </li>
+    <li>
+      <strong>RNF05 - Compatibility</strong>
+      <p>The system must be compatible with the main web browsers (Chrome), following web standards to ensure a consistent experience for users.</p>
+    </li>
+    <li>
+      <strong>RNF06 - Scalability</strong>
+      <p>The system must be able to grow in terms of capacity (number of users, asset quantity, etc.).</p>
+    </li>
+    <li>
+      <strong>RNF07 - Maintainability</strong>
+      <p>The software must be developed with proper documentation, enabling easy maintenance and future updates. Changes to the system's code or architecture should be made efficiently, without negatively impacting existing operations.</p>
+    </li>
+  </ul>
+</div>
+
 
 
