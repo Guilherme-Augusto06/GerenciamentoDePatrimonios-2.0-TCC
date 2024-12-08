@@ -610,6 +610,62 @@ GerenciamentoDePatrimonios-2.0-TCC/
 </ul>
 
 
+<h2> Created By: </h2>
+<div align="center">
+    <table>
+    <tr>
+        <td align="center" >
+        <a href="https://github.com/DzinnnXn">
+            <img src="https://avatars.githubusercontent.com/u/140509312?v=4" width="115px;" alt="André"/><br>
+            <sub>
+            <b>André Silva</b>
+            </sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/Enzo0708">
+            <img src="https://avatars.githubusercontent.com/u/136506627?v=4" width="115px;" alt="Enzo"/><br>
+            <sub>
+            <b>Enzo Biason Manha</b>
+            </sub>
+        </a>
+        </td>
+	<td align="center">
+        <a href="https://github.com/Guilherme-Augusto06">
+            <img src="https://avatars.githubusercontent.com/u/133021078?v=4" width="115px;" alt="Guilherme"/><br>
+            <sub>
+            <b>Guilherme Augusto</b>
+            </sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/guilherme3234">
+            <img src="[https://avatars.githubusercontent.com/u/133794677?v=4](https://avatars.githubusercontent.com/u/140507408?v=4)" width="115px;" alt="Guilherme "/><br>
+            <sub>
+            <b>Guilherme Souza</b>
+            </sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/mariadudasn">
+            <img src="https://avatars.githubusercontent.com/u/134337212?v=4" width="115px;" alt="Maria"/><br>
+            <sub>
+            <b>Maria Eduarda</b>
+            </sub>
+        </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/SupremeSith">
+            <img src="https://avatars.githubusercontent.com/u/134610588?v=4" width="115px;" alt="João"/><br>
+            <sub>
+            <b>João Pedro</b>
+            </sub>
+        </a>
+        </td>
+    </tr>
+    </table>
+</div>
+
 
 
 
