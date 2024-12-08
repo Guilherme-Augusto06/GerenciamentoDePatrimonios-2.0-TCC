@@ -403,6 +403,7 @@ Before presenting the results, it is important to explain the concept of asset m
 
 <div id="Code">
   <h1>Code</h1>
+<h2 align="center">Project structure</h2>
 
 ``` 
 GerenciamentoDePatrimonios-2.0-TCC/
@@ -473,6 +474,7 @@ GerenciamentoDePatrimonios-2.0-TCC/
 │   └── pyvenv.cfg
 └── README.md
 ```
+![image (20)](https://github.com/user-attachments/assets/4cb0db2c-c028-4074-abbc-78019543a4d4)
 
 
 </div>
