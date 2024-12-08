@@ -480,57 +480,135 @@ GerenciamentoDePatrimonios-2.0-TCC/
 </div>
 
 
-
 <ul>
-    <li align="justify"><b>Windows Installation:</b>
+    <li align="justify"><b>Preparation of the Environment - Python (Windows):</b>
         <ul>
-            <li align="justify"><b>Install Git:</b> If Git is not already installed, download and install it from the <a href="https://git-scm.com/">official Git website</a>.</li>
-            <li align="justify"><b>Clone the Repository:</b> Open Command Prompt or Windows PowerShell and use the following command to clone the repository:
-                <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+            <li align="justify"><b>Step 1: Install Git (if not already installed):</b> If you don't have Git installed, download and install it from the <a href="https://git-scm.com/">official Git website</a>.</li>
+            <li align="justify"><b>Step 2: Clone the Repository:</b>
+                <ul>
+                    <li align="justify">Open **Command Prompt** (cmd) or **Windows PowerShell**.</li>
+                    <li align="justify">Navigate to the directory where you want to clone the repository:</li>
+                    <pre>cd path\to\directory</pre>
+                    <li align="justify">Clone the repository using the command <b>git clone</b> and the repository URL:</li>
+                    <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+                </ul>
             </li>
-            <li align="justify"><b>Create and Activate a Virtual Environment:</b> Run the following command to create a virtual environment, then activate it:
-                <pre>python -m venv venv</pre>
-                For activation:
-                <pre>venv\Scripts\activate</pre>
+            <li align="justify"><b>Step 3: Navigate to the Project Directory:</b>
+                <pre>cd GerenciamentoDePatrimonios-2.0-TCC</pre>
             </li>
-            <li align="justify"><b>Install Dependencies:</b> Install all dependencies listed in the <code>requirements.txt</code> file:
-                <pre>pip install -r requirements.txt</pre>
+            <li align="justify"><b>Step 4: Create a Virtual Environment (optional but recommended):</b>
+                <ul>
+                    <li align="justify">Activate the virtual environment:</li>
+                    <ul>
+                        <li align="justify">In **Command Prompt**:</li>
+                        <pre>venv\Scripts\activate</pre>
+                        <li align="justify">In **PowerShell**:</li>
+                        <pre>.\venv\Scripts\Activate</pre>
+                    </ul>
+                </ul>
             </li>
-            <li align="justify"><b>Run the Development Server:</b> To run the development server, execute the following command:
-                <pre>python manage.py runserver</pre>
+            <li align="justify"><b>Step 5: Install the Dependencies:</b>
+                <ul>
+                    <li align="justify">Run the following command to install dependencies from the <b>requirements.txt</b> file:</li>
+                    <pre>pip install -r requirements.txt</pre>
+                    <li align="justify">Install the Django library:</li>
+                    <pre>pip install django</pre>
+                    <li align="justify">Install the Django Rest Framework library:</li>
+                    <pre>pip install djangorestframework</pre>
+                    <li align="justify">Install the Pillow library:</li>
+                    <pre>python -m pip install Pillow</pre>
+                </ul>
             </li>
-            <li align="justify"><b>Access the Application:</b> Open a browser and go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> to view the application.</li>
-        </ul>
-    </li>
-    <li align="justify"><b>Linux Installation:</b>
-        <ul>
-            <li align="justify"><b>Install Git:</b> If Git is not already installed, use the following command to install it:
-                <pre>sudo apt update && sudo apt install git -y</pre>
+            <li align="justify"><b>Step 6: Run the Development Server:</b>
+                <ul>
+                    <li align="justify">Navigate to the project folder:</li>
+                    <pre>cd GerenciamentoDePatrimonios</pre>
+                    <li align="justify">With dependencies installed and migrations applied, you can run the development server:</li>
+                    <pre>python manage.py runserver</pre>
+                </ul>
             </li>
-            <li align="justify"><b>Clone the Repository:</b> Use the following command to clone the repository:
-                <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+            <li align="justify"><b>Step 7: Access the Application:</b>
+                <ul>
+                    <li align="justify">Open the browser and enter the following address:</li>
+                    <pre>http://127.0.0.1:8000/</pre>
+                    <li align="justify">If everything is correct, you will see the homepage of your Django project.</li>
+                </ul>
             </li>
-            <li align="justify"><b>Create and Activate a Virtual Environment:</b> First, create the virtual environment:
-                <pre>python3 -m venv venv</pre>
-                Then activate the environment:
-                <pre>source venv/bin/activate</pre>
+            <li align="justify"><b>Final Considerations:</b>
+                <ul>
+                    <li align="justify">Remember that the development server should not be used in production.</li>
+                    <li align="justify">If the project uses a different database, check the configuration in the <b>settings.py</b> file and adjust accordingly.</li>
+                </ul>
             </li>
-            <li align="justify"><b>Install Dependencies:</b> Run the following command to install the necessary packages:
-                <pre>pip install -r requirements.txt</pre>
-            </li>
-            <li align="justify"><b>Run the Development Server:</b> Use the following command to start the Django server:
-                <pre>python3 manage.py runserver</pre>
-            </li>
-            <li align="justify"><b>Access the Application:</b> Open a browser and go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> to view the application.</li>
-        </ul>
-    </li>
-    <li align="justify"><b>Final Considerations:</b>
-        <ul>
-            <li align="justify"><b>Development Server:</b> The development server is not intended for production use. Be sure to use it only in a local development environment.</li>
-            <li align="justify"><b>Database Configuration:</b> If you're using a different database, ensure the configurations are correct in the <code>settings.py</code> file.</li>
         </ul>
     </li>
 </ul>
+
+<ul>
+    <li align="justify"><b>Preparation of the Environment - Python (Linux):</b>
+        <ul>
+            <li align="justify"><b>Step 1: Install Git (if not already installed):</b> If you don't have Git installed, use the following command to install it:</li>
+            <pre>sudo apt update && sudo apt install git -y</pre>
+            <li align="justify"><b>Step 2: Clone the Repository:</b>
+                <ul>
+                    <li align="justify">Open the terminal.</li>
+                    <li align="justify">Navigate to the directory where you want to clone the repository:</li>
+                    <pre>cd /path/to/directory</pre>
+                    <li align="justify">Clone the repository using the command <b>git clone</b> and the repository URL:</li>
+                    <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+                </ul>
+            </li>
+            <li align="justify"><b>Step 3: Navigate to the Project Directory:</b>
+                <pre>cd GerenciamentoDePatrimonios-2.0-TCC</pre>
+            </li>
+            <li align="justify"><b>Step 4: Create a Virtual Environment (optional but recommended):</b>
+                <ul>
+                    <li align="justify">Create the virtual environment:</li>
+                    <pre>python3 -m venv venv</pre>
+                    <li align="justify">Activate the virtual environment:</li>
+                    <pre>source venv/bin/activate</pre>
+                </ul>
+            </li>
+            <li align="justify"><b>Step 5: Install Project Dependencies:</b>
+                <ul>
+                    <li align="justify">Install the dependencies listed in the <b>requirements.txt</b> file:</li>
+                    <pre>pip install -r requirements.txt</pre>
+                    <li align="justify">If additional libraries are needed (e.g., Django, Django Rest Framework, and Pillow), use the following commands:</li>
+                    <ul>
+                        <li align="justify">Install Django:</li>
+                        <pre>pip install django</pre>
+                        <li align="justify">Install Django Rest Framework:</li>
+                        <pre>pip install djangorestframework</pre>
+                        <li align="justify">Install Pillow:</li>
+                        <pre>pip install Pillow</pre>
+                    </ul>
+                </ul>
+            </li>
+            <li align="justify"><b>Step 6: Run the Development Server:</b>
+                <ul>
+                    <li align="justify">Ensure you are in the project directory:</li>
+                    <pre>cd GerenciamentoDePatrimonios</pre>
+                    <li align="justify">Run the server with the following command:</li>
+                    <pre>python3 manage.py runserver</pre>
+                </ul>
+            </li>
+            <li align="justify"><b>Step 7: Access the Application:</b>
+                <ul>
+                    <li align="justify">Open the browser and enter the following address:</li>
+                    <pre>http://127.0.0.1:8000/</pre>
+                    <li align="justify">If everything is correct, you will see the homepage of your Django project.</li>
+                </ul>
+            </li>
+            <li align="justify"><b>Final Considerations:</b>
+                <ul>
+                    <li align="justify">Remember that the development server should not be used in production.</li>
+                    <li align="justify">If the project uses a different database, check the configuration in the <b>settings.py</b> file and adjust accordingly.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
 
 
 
