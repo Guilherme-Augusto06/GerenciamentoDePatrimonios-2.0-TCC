@@ -361,6 +361,41 @@ Before presenting the results, it is important to explain the concept of asset m
   
 ![image (11)](https://github.com/user-attachments/assets/dbc62184-fbb7-45c8-9f24-88784866b1a5)
 
+<h1>Mobile</h1>
+ <h2 align="center">Homepage</h2>
+ 
+![Homepage Mobile - White (1)](https://github.com/user-attachments/assets/27496ad2-6c51-41f2-9cab-1f8aed120447)
+
+ <h2 align="center">Login</h2>
+
+![Login Mobile - White (5)](https://github.com/user-attachments/assets/9123aebc-2953-4448-8721-14cdab2e3928)
+
+ <h2 align="center">Welcome Homepage</h2>
+
+![Login Mobile - White (6)](https://github.com/user-attachments/assets/85a334eb-3b8e-4f97-ae1e-a1db8c76175e)
+
+ <h2 align="center">Salas</h2>
+
+![Itens Mobile - White (3) (1)](https://github.com/user-attachments/assets/2037941a-01cb-4c34-b64e-73bf41ddcae0)
+
+
+ <h2 align="center">Menu</h2>
+
+![Login Mobile - White (7)](https://github.com/user-attachments/assets/83529ebc-09c8-4e6a-8c27-472590573d79)
+
+ <h2 align="center">Inventário</h2>
+
+![Itens Mobile - White (4)](https://github.com/user-attachments/assets/ca5d0130-7744-44e0-a7ce-52d70f1a4738)
+
+ <h2 align="center">Leitor Qr Code</h2>
+
+![Itens Mobile - White (5)](https://github.com/user-attachments/assets/b5fcd229-8176-4fd4-9901-208a9efe1718)
+
+ <h2 align="center">Editar Perfil</h2>
+
+![User Profile White - Mobile (1)](https://github.com/user-attachments/assets/9f492473-b218-409c-895c-a905e0b01c6a)
+
+
 </div>
 
 <div id="FinalPrototype">
@@ -399,11 +434,45 @@ Before presenting the results, it is important to explain the concept of asset m
 <h2 align="center">Cadastro</h2>
 
 ![image (19)](https://github.com/user-attachments/assets/1772d953-b9eb-4535-ad11-84cb53c5a6b7)
+
+<h2 align="center">Homepage</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 41](https://github.com/user-attachments/assets/d06239c3-7e56-4889-bd53-fe79dd0cc898)
+
+<h2 align="center">Login</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 41 (1)](https://github.com/user-attachments/assets/61cda7c1-3a69-4f90-9f71-eb74140d60ca)
+
+<h2 align="center">Welcome Homepage</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 41 (2)](https://github.com/user-attachments/assets/73df6ec0-c63a-4049-b9b7-bc8c468577ee)
+
+<h2 align="center">Salas</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 41 (4)](https://github.com/user-attachments/assets/807f8a2a-c4b3-499c-9eeb-ef01ac519fe1)
+
+<h2 align="center">Menu</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 42](https://github.com/user-attachments/assets/59fc557e-a685-40ee-a6f3-403332ec7394)
+
+<h2 align="center">Inventário</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 42 (1)](https://github.com/user-attachments/assets/2ef0e46e-56cd-41b3-ad20-2f4f3ecc97c0)
+
+<h2 align="center">Leitor Qr Code</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 42 (2)](https://github.com/user-attachments/assets/543ca1d8-56c5-41cc-a4a3-4f5aac7d97b4)
+
+<h2 align="center">Editar Perfil</h2>
+
+![WhatsApp Image 2024-12-08 at 10 41 43](https://github.com/user-attachments/assets/d81e37e4-bf36-40bb-8428-ad9583548e8f)
+
+
 </div>
 
 <div id="Code">
   <h1>Code</h1>
-<h2 align="center">Project structure</h2>
+<h2 align="center">Web Project structure</h2>
 
 ``` 
 GerenciamentoDePatrimonios-2.0-TCC/
@@ -475,6 +544,53 @@ GerenciamentoDePatrimonios-2.0-TCC/
 └── README.md
 ```
 ![image (20)](https://github.com/user-attachments/assets/4cb0db2c-c028-4074-abbc-78019543a4d4)
+
+
+
+
+<h2 align="center">Mobile Project structure</h2>
+
+```
+MOBILE/
+├── .expo/
+├── app/
+│   ├── (tabs)/
+│   │   ├── cadastro.tsx
+│   │   ├── EditarPerfil.tsx
+│   │   ├── home.tsx
+│   │   ├── LeitorScreen.tsx
+│   │   ├── login.tsx
+│   │   ├── menu.tsx
+│   │   ├── patrimonios.tsx
+│   │   ├── PatrimoniosPorSala.tsx
+│   │   ├── salas.tsx
+│   │   └── ServiceHomeScreen.tsx
+│   ├── api.js
+│   └── index.tsx
+├── assets/
+│   ├── fonts/
+│   └── images/
+├── components/
+│   ├── *tests*/
+│   ├── CustomButton.tsx
+│   ├── footer.tsx
+│   └── IconButton.tsx
+├── navigation/
+├── constants/
+├── hooks/
+├── scripts/
+├── node_modules/
+├── .gitignore
+├── app.json
+├── babel.config.js
+├── eas.json
+├── expo-env.d.ts
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── [README.md](http://readme.md/)
+```
+![image (21)](https://github.com/user-attachments/assets/02f255c3-7a7b-40d0-9d56-79fed2b6eceb)
 
 
 </div>
@@ -608,6 +724,104 @@ GerenciamentoDePatrimonios-2.0-TCC/
         </ul>
     </li>
 </ul>
+
+
+<ul>
+    <li align="justify"><b>Environment Preparation - React Native and Expo GO:</b>
+        <ul>
+            <li align="justify"><b>Installation and Configuration of Visual Studio Code (VSCode):</b>
+                Ensure that Visual Studio Code is installed on your system. Also, verify that the Node.js dependency is installed to enable React Native functionality.</li>
+            <li align="justify"><b>To create a React Native project with Expo Go, follow these instructions:</b></li>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 1: Install NPM (if not already installed):</b>
+        <ul>
+            <li align="justify">In the Visual Studio Code terminal, run the following command:</li>
+            <pre>npm install -g npm@latest</pre>
+            <li align="justify">This command will install or update NPM to its latest version.</li>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 2: Clone the Repository:</b>
+        <ul>
+            <li align="justify">Open the terminal.</li>
+            <li align="justify">Navigate to the directory where you want to clone the repository:</li>
+            <pre>cd path/to/directory</pre>
+            <li align="justify">Clone the repository using the <b>git clone</b> command and the repository URL:</li>
+            <pre>git clone https://github.com/DzinnnXn/TCC_MOBILE_3</pre>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 3: Create a React Native Project with Expo:</b>
+        <ul>
+            <li align="justify">Create the project by running:</li>
+            <pre>npx create-expo-app project-name</pre>
+            <li align="justify">Choose the template:</li>
+            <ul>
+                <li align="justify">During execution, the terminal may ask which template to use:</li>
+                <ul>
+                    <li align="justify"><b>blank:</b> Empty project.</li>
+                    <li align="justify"><b>blank (TypeScript):</b> Empty project with TypeScript support.</li>
+                    <li align="justify">Other templates may be available depending on the <b>create-expo-app</b> version.</li>
+                </ul>
+                <li align="justify">Select the <b>blank (TypeScript)</b> template, as it is an excellent base for the project.</li>
+            </ul>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 4: Navigate to the Project Folder:</b>
+        <ul>
+            <li align="justify">After creating the project, navigate to the project folder using:</li>
+            <pre>cd project-name</pre>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 5: Install Dependencies:</b>
+        <ul>
+            <li align="justify">If the dependencies are not installed automatically or you want to ensure everything is updated, run:</li>
+            <pre>npm install</pre>
+            <li align="justify">This command installs all dependencies listed in the <b>package.json</b> file.</li>
+        </ul>
+    </li>
+</ul>
+
+---
+
+<ul>
+    <li align="justify"><b>Step 6: Run the Project:</b>
+        <ul>
+            <li align="justify">To start the development server and view the application, run:</li>
+            <pre>npx expo start</pre>
+            <li align="justify">After executing this command, the Expo menu will open in your Visual Studio Code terminal:</li>
+        </ul>
+    </li>
+	
+![image (22)](https://github.com/user-attachments/assets/b7712e31-ab33-4fc1-8d8b-fcec9d76dd54)
+
+ 
+</ul>
+
 
 
 <h2> Created By: </h2>
