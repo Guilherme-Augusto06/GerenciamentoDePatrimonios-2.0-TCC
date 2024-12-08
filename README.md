@@ -31,6 +31,7 @@ Before presenting the results, it is important to explain the concept of asset m
 
 # Project Objectives  
 <div align="justify">![Banner para Linkedin Tecnologia em Preto (1)](https://github.com/user-attachments/assets/af0a8c7e-0f9d-4341-a244-57bb3b2f586f)
+
 ## General Objective  
 Develop an integrated asset management system for SENAI that:  
 
