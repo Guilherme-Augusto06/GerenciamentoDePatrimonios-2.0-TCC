@@ -139,26 +139,29 @@ Before presenting the results, it is important to explain the concept of asset m
   </div>
 </div>
 
+
+
 <div id="methodology">
   <h2>Methodology</h2>
 
   <div id="scrum">
     <h3>Scrum</h3>
 
-    <div id="trello">
-      <h4>Trello</h4>
-      <p>We use **Trello** to **organize** and **divide** the project into clear stages, making it easier to **assign tasks** and **track progress**. We create **boards** to represent the project and **lists** to organize the phases or categories. Within each list, **cards** are assigned to team members with defined responsibilities and deadlines. As tasks progress, we move the cards between lists, ensuring a clear overview of the project’s status and enabling efficient collaboration among team members.</p>
+<div id="trello">
+  <h4>Trello</h4>
+  <p>We use Trello to organize and divide the project into clear stages, making it easier to assign tasks and track progress. We create boards to represent the project and lists to organize the phases or categories. Within each list, cards are assigned to team members with defined responsibilities and deadlines. As tasks progress, we move the cards between lists, ensuring a clear overview of the project’s status and enabling efficient collaboration among team members.</p>
 
-      <p>We adopt the agile methodology **Scrum** in our workflow, which, combined with **Trello**, provides a structured and collaborative approach to efficiently and transparently manage projects. Scrum is a methodology that aims to deliver high-quality results in short, continuous cycles, through an iterative and incremental approach. It is based on **sprints**, **daily meetings**, and a clear definition of roles and responsibilities, which facilitates communication, adaptation, and focus on project goals.</p>
+  <p>We adopt the agile methodology Scrum in our workflow, which, combined with Trello, provides a structured and collaborative approach to efficiently and transparently manage projects. Scrum is a methodology that aims to deliver high-quality results in short, continuous cycles, through an iterative and incremental approach. It is based on sprints, daily meetings, and a clear definition of roles and responsibilities, which facilitates communication, adaptation, and focus on project goals.</p>
 
-      <p>In our case, **Trello** plays a crucial role in organizing and visualizing the workflow. We use Trello to **divide the project into clear stages**, which correspond to the **sprints** in Scrum. We create specific **boards** for each project and **lists** representing different phases of the cycle, such as "Backlog," "In Progress," "Under Review," and "Completed." This way, we can visually and intuitively track task progress, ensuring that everyone on the team knows exactly where they stand and what needs to be done next.</p>
+  <p>In our case, Trello plays a crucial role in organizing and visualizing the workflow. We use Trello to divide the project into clear stages, which correspond to the sprints in Scrum. We create specific boards for each project and lists representing different phases of the cycle, such as "Backlog," "In Progress," "Under Review," and "Completed." This way, we can visually and intuitively track task progress, ensuring that everyone on the team knows exactly where they stand and what needs to be done next.</p>
 
-      <p>Within each list on Trello, the **cards** represent specific tasks or features to be developed, and are assigned to team members with **defined responsibilities and deadlines**. Trello allows us to easily track the progress of each task by moving the cards between lists as activities advance, according to the **Scrum** workflow. This visual and dynamic approach facilitates **task management**, allowing everyone to see the priorities and deliverables of each sprint clearly and in an organized manner.</p>
+  <p>Within each list on Trello, the cards represent specific tasks or features to be developed, and are assigned to team members with defined responsibilities and deadlines. Trello allows us to easily track the progress of each task by moving the cards between lists as activities advance, according to the Scrum workflow. This visual and dynamic approach facilitates task management, allowing everyone to see the priorities and deliverables of each sprint clearly and in an organized manner.</p>
 
-      <p>**Trello**, combined with the Scrum methodology, also facilitates **constant review and adaptation**, key features of Scrum. After each sprint, we hold a **retrospective meeting**, where we evaluate what went well, what needs improvement, and what can be adjusted for the next cycle. Trello provides an overview of what has been done, allowing the team to focus on specific areas of improvement and adjust the action plan for the next sprint in an agile way, without overburdening the members.</p>
+  <p>Trello, combined with the Scrum methodology, also facilitates constant review and adaptation, key features of Scrum. After each sprint, we hold a retrospective meeting, where we evaluate what went well, what needs improvement, and what can be adjusted for the next cycle. Trello provides an overview of what has been done, allowing the team to focus on specific areas of improvement and adjust the action plan for the next sprint in an agile way, without overburdening the members.</p>
 
-      <p>In summary, the agile methodology **Scrum**, combined with **Trello**, provides us with a structured and efficient way to manage projects, ensuring fast, continuous, and high-quality deliveries. Trello helps visualize task progress, facilitates communication and team adaptation, and allows for transparent and dynamic project management aligned with Scrum principles. This approach enables us to quickly respond to changes and continuously optimize our processes to achieve better results in each development cycle.</p>
-    </div>
+  <p>In summary, the agile methodology Scrum, combined with Trello, provides us with a structured and efficient way to manage projects, ensuring fast, continuous, and high-quality deliveries. Trello helps visualize task progress, facilitates communication and team adaptation, and allows for transparent and dynamic project management aligned with Scrum principles. This approach enables us to quickly respond to changes and continuously optimize our processes to achieve better results in each development cycle.</p>
+</div>
+
   </div>
 
   <hr>
@@ -166,7 +169,8 @@ Before presenting the results, it is important to explain the concept of asset m
   <div id="notion">
     <h3>Notion</h3>
 
-    <p>We use **Notion** to **organize information**, **manage tasks**, and **collaborate efficiently** as a team. We create **custom pages** to store notes, documents, and important data, along with **task lists**, **Kanban boards**, and **calendars** to track project progress. Notion also allows us to create **structured databases**, making information organization visual and accessible. With its flexibility and collaborative features, Notion has become our central tool for managing both day-to-day tasks and more complex projects.</p>
+<p>We use **Notion** to **organize information**, **manage tasks**, and **collaborate efficiently** as a team. We create **custom pages** to store notes, documents, and important data, along with **task lists**, **Kanban boards**, and **calendars** to track project progress. Notion also allows us to create **structured databases**, making information organization visual and accessible. With its flexibility and collaborative features, Notion has become our central tool for managing both day-to-day tasks and more complex projects.</p>
   </div>
 </div>
+
 
