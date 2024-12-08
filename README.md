@@ -36,6 +36,13 @@
   <li><a href="#main-components">Main Components</a></li>
   <li><a href="#InitialPrototype">Initial Prototype</a></li>
   <li><a href="#FinalPrototype">Final Prototype</a></li>
+  <li><a href="#Code">Code</a></li>
+  <li><a href="#installationWindows">Installation WEB - Windows</a></li>
+  <li><a href="#installationLinux">Installation WEB - Linux</a></li>
+  <li><a href="#InstallationMobile">Installation Mobile</a></li>
+  <li><a href="#Credits">Credits</a></li>
+  
+
 </ul>
 
 
@@ -614,7 +621,7 @@ MOBILE/
 
 </div>
 
-
+<div id="installationWindows">
 <ul>
     <li align="justify"><b>Preparation of the Environment - Python (Windows):</b>
         <ul>
@@ -678,7 +685,9 @@ MOBILE/
         </ul>
     </li>
 </ul>
+</div>
 
+<div id="installationLinux">
 <ul>
     <li align="justify"><b>Preparation of the Environment - Python (Linux):</b>
         <ul>
@@ -743,8 +752,9 @@ MOBILE/
         </ul>
     </li>
 </ul>
+</div>
 
-
+<div id="InstallationMobile">
 <ul>
     <li align="justify"><b>Environment Preparation - React Native and Expo GO:</b>
         <ul>
@@ -840,11 +850,11 @@ MOBILE/
 
  
 </ul>
-
+</div>
 
 
 <h2> Created By: </h2>
-<div align="center">
+<div align="center" id="Credits">
     <table>
     <tr>
         <td align="center" >
