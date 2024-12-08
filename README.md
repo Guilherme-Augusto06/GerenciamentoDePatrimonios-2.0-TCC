@@ -361,7 +361,138 @@ Before presenting the results, it is important to explain the concept of asset m
   
 ![image (11)](https://github.com/user-attachments/assets/dbc62184-fbb7-45c8-9f24-88784866b1a5)
 
+</div>
 
+<div id="FinalPrototype">
+  <h1>Final Prototype</h1>
 
+![Banner para Linkedin Tecnologia em Preto (7)](https://github.com/user-attachments/assets/f957ac4d-a188-4bdd-893b-6d7826703c6c)
+
+<h2 align="center">Homepage</h2>
   
+![image (12)](https://github.com/user-attachments/assets/980e1a8f-89d5-4414-bfe1-c3439e839d1f)
+
+<h2 align="center">Login</h2>
+
+![image (13)](https://github.com/user-attachments/assets/1732cbbd-2de4-4508-92c8-62281ea00933)
+
+<h2 align="center">welcomeHomepage</h2>
+
+![image (14)](https://github.com/user-attachments/assets/97ddd5a5-2970-46cd-a088-d2301742f23d)
+
+<h2 align="center">Itens</h2>
+
+![image (15)](https://github.com/user-attachments/assets/cb25c1ef-bcf8-4cac-8ecd-3ad9d9af4dcf)
+
+<h2 align="center">Salas</h2>
+
+![image (16)](https://github.com/user-attachments/assets/722454a1-7452-4826-b940-b25cfbda0a99)
+
+<h2 align="center">Perfil</h2>
+
+![image (17)](https://github.com/user-attachments/assets/054f93ee-9758-45cf-89fe-f886339a1178)
+
+<h2 align="center">Usuários</h2>
+
+![image (18)](https://github.com/user-attachments/assets/325f8d75-38b7-4891-abd4-285b7db121d6)
+
+<h2 align="center">Cadastro</h2>
+
+![image (19)](https://github.com/user-attachments/assets/1772d953-b9eb-4535-ad11-84cb53c5a6b7)
+</div>
+
+<div id="Code">
+  <h1>Code</h1>
+[**GerenciamentoDePatrimonios-2.0-TCC**](https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC/tree/main)/
+├── GerenciamentoDePatrimonios/
+│   ├── AppGDP/
+│   │   ├── **pycache**/
+│   │   ├── migrations/
+│   │   │   ├── **pycache**/
+│   │   │   └── [**init.py**](http://init.py/).py
+│   │   ├── templates/
+│   │   │   ├── cadastroUsuario.html
+│   │   │   ├── faq.html
+│   │   │   ├── homepage.html
+│   │   │   ├── itens.html
+│   │   │   ├── login.html
+│   │   │   ├── profile.html
+│   │   │   ├── usuarios.html
+│   │   │   └── welcomeHomepage.html
+│   │   ├── **init**.py
+│   │   ├── [admin.py](http://admin.py/)
+│   │   ├── [apps.py](http://apps.py/)
+│   │   ├── forms[.py](http://apps.py/)
+│   │   ├── [models.py](http://models.py/)
+│   │   ├── [tests.py](http://tests.py/)
+│   │   ├── [urls.py](http://urls.py/)
+│   │   └── [views.py](http://views.py/)
+│   ├── GerenciamentoDePatrimonios/
+│   │   ├── **pycache**/
+│   │   │   ├── **pycache**/
+│   │   │   └── **init**.py
+│   │   ├── **init**.py
+│   │   ├── [asgi.py](http://asgi.py/)
+│   │   ├── [settings.py](http://settings.py/)
+│   │   ├── [urls.py](http://urls.py/)
+│   │   └── [wsgi.py](http://wsgi.py/)
+│   ├── static/
+│   │   ├── css/
+│   │   │   ├── cadastro.css
+│   │   │   ├── faq.css
+│   │   │   ├── footer.css
+│   │   │   ├── homepage.css
+│   │   │   ├── itens.css
+│   │   │   ├── login.css
+│   │   │   ├── modal.css
+│   │   │   ├── modalConfirmation.css
+│   │   │   ├── navbar.css
+│   │   │   ├── profile.css
+│   │   │   ├── style.css
+│   │   │   ├── themesMode.css
+│   │   │   ├── usuarios.css
+│   │   │   ├── vector.css
+│   │   │   ├── welcomeHomepage.css
+│   │   ├── img/
+│   │   └── js/
+│   │   │   ├── effects.js
+│   │   │   └── main.js
+│   ├── templates/
+│   │   ├── footer.html
+│   │   ├── index.html
+│   │   ├── navbar.html
+│   │   ├── navbarAutenticado.html
+│   │   └── vectorFormas.html
+│   ├── db.sqlite3
+│   └── [manage.py](http://manage.py/)
+├── venv/
+│   ├── Lib/
+│   ├── Scripts/
+│   └── pyvenv.cfg
+├── [README.md](http://readme.md/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
