@@ -65,9 +65,7 @@ Before presenting the results, it is important to explain the concept of asset m
   <h2>Justification</h2>
 	
 ![Banner para Linkedin Tecnologia em Preto](https://github.com/user-attachments/assets/81c5897b-5d7a-4a4c-8e2e-b53f86a64fa4)
-  <div id="justification-banner">
-    <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/df22d4e2-0408-43fc-b139-e6be3d34d022/d24193bf-6c6c-49c1-af43-8b3299840f2f/Banner_para_Linkedin_Tecnologia_em_Preto.png" alt="Justification Banner">
-  </div>
+
 
   <div id="justification-content">
     <p>The theme of developing an asset management software is highly relevant to SENAI, given the volume of assets and the complexity of maintenance and control operations. Automation significantly reduces the time spent on manual management while improving accuracy and minimizing human errors common in traditional methods.</p>
