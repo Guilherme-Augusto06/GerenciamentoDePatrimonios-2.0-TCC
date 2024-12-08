@@ -31,7 +31,8 @@ Before presenting the results, it is important to explain the concept of asset m
 
 <div id="project-objectives">
   <h2>Project Objectives</h2>
-  
+  ![Banner para Linkedin Tecnologia em Preto (1)](https://github.com/user-attachments/assets/e1d289b8-2104-4a65-992c-b3ee45c7b62e)
+
   <div id="general-objective">
     <h3>General Objective</h3>
     <ul>
