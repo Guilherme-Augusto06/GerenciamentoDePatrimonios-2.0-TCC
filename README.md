@@ -332,4 +332,10 @@ Before presenting the results, it is important to explain the concept of asset m
 
 </div>
 
+<div id="InitialPrototype">
+  <h2>Initial Prototype</h2>
+
+![Banner para Linkedin Tecnologia em Preto (6)](https://github.com/user-attachments/assets/1375f6de-ee5c-478c-b57d-ede1e29958d7)
+
+<h4 align="center">Homepage</h4>
 
