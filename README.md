@@ -372,7 +372,9 @@ Before presenting the results, it is important to explain the concept of asset m
 
  <h2 align="center">Welcome Homepage</h2>
 
+
 ![Login Mobile - White (6)](https://github.com/user-attachments/assets/85a334eb-3b8e-4f97-ae1e-a1db8c76175e)
+
 
  <h2 align="center">Salas</h2>
 
@@ -435,6 +437,7 @@ Before presenting the results, it is important to explain the concept of asset m
 
 ![image (19)](https://github.com/user-attachments/assets/1772d953-b9eb-4535-ad11-84cb53c5a6b7)
 
+<h1>Mobile</h1>
 <h2 align="center">Homepage</h2>
 
 ![WhatsApp Image 2024-12-08 at 10 41 41](https://github.com/user-attachments/assets/d06239c3-7e56-4889-bd53-fe79dd0cc898)
@@ -445,7 +448,9 @@ Before presenting the results, it is important to explain the concept of asset m
 
 <h2 align="center">Welcome Homepage</h2>
 
+
 ![WhatsApp Image 2024-12-08 at 10 41 41 (2)](https://github.com/user-attachments/assets/73df6ec0-c63a-4049-b9b7-bc8c468577ee)
+
 
 <h2 align="center">Salas</h2>
 
