@@ -412,13 +412,13 @@ Before presenting the results, it is important to explain the concept of asset m
 
 
 
-**GerenciamentoDePatrimonios-2.0-TCC**/
+GerenciamentoDePatrimonios-2.0-TCC/
 ├── GerenciamentoDePatrimonios/
 │   ├── AppGDP/
-│   │   ├── **pycache**/
+│   │   ├── pycache/
 │   │   ├── migrations/
-│   │   │   ├── **pycache**/
-│   │   │   └── [**init.py**](http://init.py/).py
+│   │   │   ├── pycache/
+│   │   │   └── __init__.py
 │   │   ├── templates/
 │   │   │   ├── cadastroUsuario.html
 │   │   │   ├── faq.html
@@ -428,23 +428,23 @@ Before presenting the results, it is important to explain the concept of asset m
 │   │   │   ├── profile.html
 │   │   │   ├── usuarios.html
 │   │   │   └── welcomeHomepage.html
-│   │   ├── **init**.py
-│   │   ├── [admin.py](http://admin.py/)
-│   │   ├── [apps.py](http://apps.py/)
-│   │   ├── forms[.py](http://apps.py/)
-│   │   ├── [models.py](http://models.py/)
-│   │   ├── [tests.py](http://tests.py/)
-│   │   ├── [urls.py](http://urls.py/)
-│   │   └── [views.py](http://views.py/)
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
 │   ├── GerenciamentoDePatrimonios/
-│   │   ├── **pycache**/
-│   │   │   ├── **pycache**/
-│   │   │   └── **init**.py
-│   │   ├── **init**.py
-│   │   ├── [asgi.py](http://asgi.py/)
-│   │   ├── [settings.py](http://settings.py/)
-│   │   ├── [urls.py](http://urls.py/)
-│   │   └── [wsgi.py](http://wsgi.py/)
+│   │   ├── pycache/
+│   │   │   ├── pycache/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
 │   ├── static/
 │   │   ├── css/
 │   │   │   ├── cadastro.css
@@ -464,8 +464,8 @@ Before presenting the results, it is important to explain the concept of asset m
 │   │   │   ├── welcomeHomepage.css
 │   │   ├── img/
 │   │   └── js/
-│   │   │   ├── effects.js
-│   │   │   └── main.js
+│   │       ├── effects.js
+│   │       └── main.js
 │   ├── templates/
 │   │   ├── footer.html
 │   │   ├── index.html
@@ -473,12 +473,12 @@ Before presenting the results, it is important to explain the concept of asset m
 │   │   ├── navbarAutenticado.html
 │   │   └── vectorFormas.html
 │   ├── db.sqlite3
-│   └── [manage.py](http://manage.py/)
+│   └── manage.py
 ├── venv/
 │   ├── Lib/
 │   ├── Scripts/
 │   └── pyvenv.cfg
-├── [README.md](http://readme.md/)
+└── README.md
 
 
 
