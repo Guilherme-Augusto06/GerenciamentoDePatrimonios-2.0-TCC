@@ -23,6 +23,16 @@
 </div>
 
 
+<h2>📑 Menu</h2>
+<ul>
+  <li><a href="#project-objectives">🎯 Project Objectives</a></li>
+  <li><a href="#justification">📝 Justification</a></li>
+  <li><a href="#programming-languages">💻 Programming Languages</a></li>
+  <li><a href="#framework">🔧 Framework</a></li>
+  <li><a href="#markup-languages">📜 Markup Languages</a></li>
+  <li><a href="#prototype">🎨 Prototype</a></li>
+  <li><a href="#methodology">⚙ Methodology</a></li>
+</ul>
 
 
 
