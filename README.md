@@ -260,4 +260,15 @@ Before presenting the results, it is important to explain the concept of asset m
   <p>The architecture of our software follows the MVT (Model, View, Template) pattern of Django. The model contains the logical structure of the project and acts as an intermediary to manipulate data between the database and the view. In the model file, the data types and how they will be stored in the database are defined. The view controls the logic that determines how the data is presented to the users, formatting the data coming from the database via the model for display. Finally, the template is responsible for the visualization part for the end user. It is like the front-end of the application. This layer stores HTML, CSS, and extended JavaScript files, which helps in faster development. Based on the application's response, it renders the HTML files in the browser. Templates allow the presentation layer to be separated from the business logic, making it easier to maintain and update the application's design.</p>
 </div>
 
+<h5>Sistemaps</h5>
+
+![image](https://github.com/user-attachments/assets/7065ea83-cedf-4db1-82bd-4b3abbd8656c)
+
+<h5>User flow</h5>
+
+![image (1)](https://github.com/user-attachments/assets/8f7213ec-4971-4d07-8c71-b6ff406878a1)
+![image (2)](https://github.com/user-attachments/assets/bf7f67bf-65fc-4bf3-9924-901d828b90a4)
+![image (3)](https://github.com/user-attachments/assets/01ff5ba6-0e68-40e3-8dee-4e5aa9dfb0e7)
+![image (4)](https://github.com/user-attachments/assets/d2166f11-71ab-480e-b1ce-6e066cfb81d5)
+![image (5)](https://github.com/user-attachments/assets/d8640cd9-6e65-469b-b3a2-152932307382)
 
