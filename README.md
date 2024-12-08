@@ -2,8 +2,10 @@
 
 <br/>
 
+![Banner para Linkedin Tecnologia em Preto (2)](https://github.com/user-attachments/assets/fc510663-331a-4a72-a682-7cbf85aac3bd)
 
-![Banner para Linkedin Tecnologia em Preto (2).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/df22d4e2-0408-43fc-b139-e6be3d34d022/5aa784cd-394d-4d5e-96ea-abea9548ad44/Banner_para_Linkedin_Tecnologia_em_Preto_(2).png)
+
+
 <div align="center">
 	<a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></a>
 	<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/></a>
