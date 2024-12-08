@@ -481,6 +481,56 @@ GerenciamentoDePatrimonios-2.0-TCC/
 
 
 
+<ul>
+    <li align="justify"><b>Windows Installation:</b>
+        <ul>
+            <li align="justify"><b>Install Git:</b> If Git is not already installed, download and install it from the <a href="https://git-scm.com/">official Git website</a>.</li>
+            <li align="justify"><b>Clone the Repository:</b> Open Command Prompt or Windows PowerShell and use the following command to clone the repository:
+                <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+            </li>
+            <li align="justify"><b>Create and Activate a Virtual Environment:</b> Run the following command to create a virtual environment, then activate it:
+                <pre>python -m venv venv</pre>
+                For activation:
+                <pre>venv\Scripts\activate</pre>
+            </li>
+            <li align="justify"><b>Install Dependencies:</b> Install all dependencies listed in the <code>requirements.txt</code> file:
+                <pre>pip install -r requirements.txt</pre>
+            </li>
+            <li align="justify"><b>Run the Development Server:</b> To run the development server, execute the following command:
+                <pre>python manage.py runserver</pre>
+            </li>
+            <li align="justify"><b>Access the Application:</b> Open a browser and go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> to view the application.</li>
+        </ul>
+    </li>
+    <li align="justify"><b>Linux Installation:</b>
+        <ul>
+            <li align="justify"><b>Install Git:</b> If Git is not already installed, use the following command to install it:
+                <pre>sudo apt update && sudo apt install git -y</pre>
+            </li>
+            <li align="justify"><b>Clone the Repository:</b> Use the following command to clone the repository:
+                <pre>git clone https://github.com/Guilherme-Augusto06/GerenciamentoDePatrimonios-2.0-TCC</pre>
+            </li>
+            <li align="justify"><b>Create and Activate a Virtual Environment:</b> First, create the virtual environment:
+                <pre>python3 -m venv venv</pre>
+                Then activate the environment:
+                <pre>source venv/bin/activate</pre>
+            </li>
+            <li align="justify"><b>Install Dependencies:</b> Run the following command to install the necessary packages:
+                <pre>pip install -r requirements.txt</pre>
+            </li>
+            <li align="justify"><b>Run the Development Server:</b> Use the following command to start the Django server:
+                <pre>python3 manage.py runserver</pre>
+            </li>
+            <li align="justify"><b>Access the Application:</b> Open a browser and go to <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> to view the application.</li>
+        </ul>
+    </li>
+    <li align="justify"><b>Final Considerations:</b>
+        <ul>
+            <li align="justify"><b>Development Server:</b> The development server is not intended for production use. Be sure to use it only in a local development environment.</li>
+            <li align="justify"><b>Database Configuration:</b> If you're using a different database, ensure the configurations are correct in the <code>settings.py</code> file.</li>
+        </ul>
+    </li>
+</ul>
 
 
 
