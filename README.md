@@ -32,7 +32,7 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="project-objectives">
-  <h2>Project Objectives</h2>
+  <h1>Project Objectives</h1>
 	
 ![Banner para Linkedin Tecnologia em Preto (1)](https://github.com/user-attachments/assets/4766bdf1-95d3-4b5e-8a3b-562738a6137c)
 
@@ -62,7 +62,7 @@ Before presenting the results, it is important to explain the concept of asset m
 <hr>
 
 <div id="justification">
-  <h2>Justification</h2>
+  <h1>Justification</h1>
 	
 ![Banner para Linkedin Tecnologia em Preto](https://github.com/user-attachments/assets/81c5897b-5d7a-4a4c-8e2e-b53f86a64fa4)
 
@@ -78,7 +78,7 @@ Before presenting the results, it is important to explain the concept of asset m
 <hr>
 
 <div id="programming-languages">
-  <h2>Programming Languages</h2>
+  <h1>Programming Languages</h1>
   
   <div id="python">
     <h3>Python (Version 3.12.4)</h3>
@@ -99,7 +99,7 @@ Before presenting the results, it is important to explain the concept of asset m
 <hr>
 
 <div id="framework">
-  <h2>Framework</h2>
+  <h1>Framework</h1>
   
   <div id="django">
     <h3>Django</h3>
@@ -115,7 +115,7 @@ Before presenting the results, it is important to explain the concept of asset m
 <hr>
 
 <div id="markup-languages">
-  <h2>Markup Languages</h2>
+  <h1>Markup Languages</h1>
   
   <div id="css">
     <h3>CSS</h3>
@@ -143,7 +143,7 @@ Before presenting the results, it is important to explain the concept of asset m
 
 
 <div id="methodology">
-  <h2>Methodology</h2>
+  <h1>Methodology</h1>
 	
 ![Banner para Linkedin Tecnologia em Preto (3)](https://github.com/user-attachments/assets/ea15e3e7-d2d9-40ac-b33e-d2266132db8d)
 
@@ -177,7 +177,7 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="requirements">
-  <h2>Requirements Gathering</h2>
+  <h1>Requirements Gathering</h1>
 	
 ![Banner para Linkedin Tecnologia em Preto (4)](https://github.com/user-attachments/assets/6ff7167f-0642-480f-8480-84c9cd5dc927)
   <ol>
@@ -249,7 +249,7 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="architecture">
-  <h2>Architecture</h2>
+  <h1>Architecture</h1>
 	
   ![Banner para Linkedin Tecnologia em Preto (5)](https://github.com/user-attachments/assets/09bdbd08-c8b0-4085-9128-735c09b7bc30)
 
@@ -333,9 +333,9 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="InitialPrototype">
-  <h2>Initial Prototype</h2>
+  <h1>Initial Prototype</h1>
 
 ![Banner para Linkedin Tecnologia em Preto (6)](https://github.com/user-attachments/assets/1375f6de-ee5c-478c-b57d-ede1e29958d7)
 
-<h4 align="center">Homepage</h4>
+<h2 align="center">Homepage</h2>
 
