@@ -272,3 +272,64 @@ Before presenting the results, it is important to explain the concept of asset m
 ![image (4)](https://github.com/user-attachments/assets/d2166f11-71ab-480e-b1ce-6e066cfb81d5)
 ![image (5)](https://github.com/user-attachments/assets/d8640cd9-6e65-469b-b3a2-152932307382)
 
+<div id="main-components">
+  <h4>Main Components - Updated as the project progresses</h4>
+  
+  <ul>
+    <li>Login</li>
+    <li>Registration</li>
+    <li>View the assets of each room</li>
+    <li>Add an asset</li>
+    <li>Delete an asset</li>
+    <li>Edit an asset</li>
+    <li>Move an asset</li>
+    <li>Add an asset to the maintenance list</li>
+  </ul>
+
+  <h5>Component Diagram</h5>
+  
+  <h6>Login</h6>
+  <p>There are two types of login: Coordinator and Teacher.</p>
+  
+  <ul>
+    <li><strong>Coordinator:</strong> The coordinator has full access to all functionalities.</li>
+    <li><strong>Teacher:</strong> The teacher can view the assets of the rooms where they teach and view assets under maintenance, as well as other functions that require coordinator permission. They can request the movement of assets.</li>
+  </ul>
+  
+  <h6>Registration</h6>
+  <p>Only the coordinator can register new users (teachers).</p>
+
+  <h6>View the assets of each room</h6>
+  <p>Both the coordinator and the teacher will have access to view the assets in each room.</p>
+  
+  <h6>Asset Registration</h6>
+  <p>The coordinator can register new assets.</p>
+  
+  <h6>Delete an asset</h6>
+  <p>Only the coordinator can delete assets.</p>
+  
+  <h6>Edit Assets</h6>
+  <p>Coordinators can edit the descriptions of assets.</p>
+  
+  <h6>Move Assets</h6>
+  <p>Coordinators can move assets between rooms.</p>
+  
+  <h6>Add to the asset maintenance list</h6>
+  <p>Teachers can notify the coordinator when an asset needs maintenance, and the coordinator will place the item in a separate section for assets under maintenance.</p>
+
+  <h5>Database</h5>
+
+  <h6>Tables</h6>
+  <ul>
+    <li>Assets</li>
+    <li>Users (Coordinators and Teachers)</li>
+    <li>Rooms</li>
+    <li>Assets Under Maintenance</li>
+  </ul>
+  <h6>Project process diagram:</h6>
+  
+![Análise de sitemap (2)](https://github.com/user-attachments/assets/e5df10ce-2563-4724-a6f0-2444dcc87cc1)
+
+</div>
+
+
