@@ -647,10 +647,10 @@ GerenciamentoDePatrimonios-2.0-TCC/
         </a>
         </td>
         <td align="center">
-        <a href="https://github.com/mariadudasn">
-            <img src="https://avatars.githubusercontent.com/u/134337212?v=4" width="115px;" alt="Maria"/><br>
+        <a href="https://github.com/RafaelaFatima16">
+            <img src="https://avatars.githubusercontent.com/u/136743145?v=4" width="115px;" alt="Rafaela"/><br>
             <sub>
-            <b>Maria Eduarda</b>
+            <b>Rafaela de Fátima</b>
             </sub>
         </a>
         </td>
