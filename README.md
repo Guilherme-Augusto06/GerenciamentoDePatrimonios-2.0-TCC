@@ -177,7 +177,7 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="requirements">
-  <h4>Requirements Gathering</h4>
+  <h2>Requirements Gathering</h2>
 	
 ![Banner para Linkedin Tecnologia em Preto (4)](https://github.com/user-attachments/assets/6ff7167f-0642-480f-8480-84c9cd5dc927)
   <ol>
@@ -249,7 +249,7 @@ Before presenting the results, it is important to explain the concept of asset m
 </div>
 
 <div id="architecture">
-  <h4>Architecture</h4>
+  <h2>Architecture</h2>
 	
   ![Banner para Linkedin Tecnologia em Preto (5)](https://github.com/user-attachments/assets/09bdbd08-c8b0-4085-9128-735c09b7bc30)
 
