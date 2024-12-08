@@ -404,14 +404,7 @@ Before presenting the results, it is important to explain the concept of asset m
 <div id="Code">
   <h1>Code</h1>
 
-
-
-</div>
-
-
-
-
-```plaintext
+``` 
 GerenciamentoDePatrimonios-2.0-TCC/
 ├── GerenciamentoDePatrimonios/
 │   ├── AppGDP/
@@ -479,6 +472,11 @@ GerenciamentoDePatrimonios-2.0-TCC/
 │   ├── Scripts/
 │   └── pyvenv.cfg
 └── README.md
+```
+
+
+</div>
+
 
 
 
