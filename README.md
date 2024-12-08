@@ -32,6 +32,10 @@
   <li><a href="#markup-languages">📜 Markup Languages</a></li>
   <li><a href="#prototype">🎨 Prototype</a></li>
   <li><a href="#methodology">⚙ Methodology</a></li>
+  <li><a href="#architecture">Architecture</a></li>
+  <li><a href="#main-components">Main Components</a></li>
+  <li><a href="#InitialPrototype">Initial Prototype</a></li>
+  <li><a href="#FinalPrototype">Final Prototype</a></li>
 </ul>
 
 
