@@ -27,3 +27,21 @@ Our main goal with this project was to develop a technological tool capable of t
 
 Before presenting the results, it is important to explain the concept of asset management. It involves the process of cataloging, monitoring, and organizing an institution's assets to ensure control, optimize resources, and increase transparency. The objective is to maximize the use of assets, reduce waste, and facilitate decision-making. Furthermore, effective management ensures compliance with internal policies and provides greater security in asset traceability.
 </div>
+
+# Project Objectives  
+
+## General Objective  
+Develop an integrated asset management system for SENAI that:  
+
+- **Automates manual processes** related to asset control.  
+- **Improves tracking** of assets using technology.  
+- **Centralizes information** in real-time for more efficient and agile management.  
+
+## Specific Objectives  
+
+### Development of the Web and Mobile System  
+
+- Create an intuitive interface for asset registration and management.  
+- Implement features for tracking, editing, and deleting assets.  
+- Integrate the platform with reporting systems to assist in data analysis.  
+- Ensure security and access control, with authentication for users and administrators.  
