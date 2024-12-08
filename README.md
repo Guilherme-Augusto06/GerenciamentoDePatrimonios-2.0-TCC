@@ -24,6 +24,7 @@
 
 
 
+
 Our main goal with this project was to develop a technological tool capable of transforming the way assets are managed within the institution. We aimed to create a practical, agile, and reliable solution that not only saves time and reduces errors but also significantly improves the organization and control of institutional resources.
 
 Before presenting the results, it is important to explain the concept of asset management. It involves the process of cataloging, monitoring, and organizing an institution's assets to ensure control, optimize resources, and increase transparency. The objective is to maximize the use of assets, reduce waste, and facilitate decision-making. Furthermore, effective management ensures compliance with internal policies and provides greater security in asset traceability.
@@ -31,7 +32,7 @@ Before presenting the results, it is important to explain the concept of asset m
 
 <div id="project-objectives">
   <h2>Project Objectives</h2>
-  ![Banner para Linkedin Tecnologia em Preto (1)](https://github.com/user-attachments/assets/e1d289b8-2104-4a65-992c-b3ee45c7b62e)
+![Banner para Linkedin Tecnologia em Preto (1)](https://github.com/user-attachments/assets/4766bdf1-95d3-4b5e-8a3b-562738a6137c)
 
   <div id="general-objective">
     <h3>General Objective</h3>
