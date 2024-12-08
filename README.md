@@ -337,5 +337,31 @@ Before presenting the results, it is important to explain the concept of asset m
 
 ![Banner para Linkedin Tecnologia em Preto (6)](https://github.com/user-attachments/assets/1375f6de-ee5c-478c-b57d-ede1e29958d7)
 
-<h2 align="center">Homepage</h2>
+ <h2 align="center">Homepage</h2>
+ 
+![image (6)](https://github.com/user-attachments/assets/9d80c27c-de0f-48a8-8003-1a4c26ee5ffa)
+
+ <h2 align="center">FAQ</h2>
+
+![image (7)](https://github.com/user-attachments/assets/60a4f977-9005-4e49-a05f-f60529fbb568)
+
+ <h2 align="center">Login</h2>
+
+ ![image (8)](https://github.com/user-attachments/assets/21487ead-7bf9-466b-ba81-ad9b666cdefd)
+
+  <h2 align="center">WelcomeHomepage</h2>
+  
+![image (9)](https://github.com/user-attachments/assets/eaed73d2-9fad-4dd3-9a61-49e1e810a096)
+
+  <h2 align="center">Itens</h2>
+  
+![image (10)](https://github.com/user-attachments/assets/12e9b4ae-3930-4ef5-bc42-252612ff33fa)
+
+  <h2 align="center">Cadastro</h2>
+  
+![image (11)](https://github.com/user-attachments/assets/dbc62184-fbb7-45c8-9f24-88784866b1a5)
+
+
+
+  
 
