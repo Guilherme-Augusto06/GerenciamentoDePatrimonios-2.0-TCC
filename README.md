@@ -916,7 +916,9 @@ MOBILE/
     </table>
 </div>
 
+### Contribuições
 
+Agradecemos ao [@Daniel Albieri](https://github.com/danielalbieri) por sua valiosa contribuição para este projeto.
 
 
 
