@@ -918,7 +918,7 @@ MOBILE/
 
 ### Contribuições
 
-Agradecemos ao [@Daniel Albieri](https://github.com/danielalbieri) por sua valiosa contribuição para este projeto.
+Thanks to [@Daniel Albieri](https://github.com/danielalbieri) for his valuable contribution to this project.
 
 
 
