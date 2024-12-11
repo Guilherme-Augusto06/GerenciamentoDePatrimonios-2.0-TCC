@@ -404,10 +404,10 @@ def login(request):
     context = {}
     dadosSenai = Senai.objects.all()
     context["dadosSenai"] = dadosSenai
+    
     if request.method == 'POST':
         form = FormLogin(request.POST)
         if form.is_valid():
-
             var_usuario = form.cleaned_data['user']
             var_senha = form.cleaned_data['password']
             
@@ -417,12 +417,15 @@ def login(request):
                 auth_login(request, user)
                 return redirect('/welcomeHomepage')  
             else:
-                print('Login falhou')
+                # Adiciona uma mensagem de erro
+                messages.error(request, 'Usuário ou senha inválidos. Por favor, tente novamente.')
+        else:
+            messages.error(request, 'Erro ao validar o formulário.')
     else:
         form = FormLogin()
-        context['form'] = form
-        return render(request, 'login.html', context)
     
+    context['form'] = form
+    return render(request, 'login.html', context)
 
 #---------------------------- CRUD DE INVENTÁRIO ----------------------------
 @login_required

@@ -38,6 +38,17 @@ main {
     height: auto;
 }
 
+
+.error-message {
+    margin-bottom: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    font-family: 'poppins';
+    border-radius: 10px;
+}
+
+
 .input-group {
     text-align: left;
     margin-bottom: 40px;
